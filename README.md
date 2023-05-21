@@ -1,6 +1,13 @@
 # CV
 
+Curriculumn vitae project that renders cv JSON-file into html page using LIT web components.
+
 ## Development
+
+```bash
+# Copy example data
+cp data/cv.example.json data/cv.json
+```
 
 ```bash
 # Build in watch mode

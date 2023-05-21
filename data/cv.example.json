@@ -1,0 +1,35 @@
+{
+  "profile": {
+    "name": "I am a teapot",
+    "dob": "01.01.1970",
+    "home": "/dev/null",
+    "links": [
+      {
+        "name": "github",
+        "url": "https://github.com",
+        "logo": "/img/github-mark.png"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com/",
+        "logo": "/img/LI-In-Bug.png"
+      }
+    ],
+    "languages": [
+      { "name": "english", "description": "sublime" },
+    ],
+    "keywords": [
+      "switch",
+      "ps5",
+      "steam deck",
+      "ps4",
+      "ps3"
+    ]
+  },
+  "education": {
+    "name": "University of life",
+    "degree": "first degree burns on my both hands and feet",
+    "start": "1970",
+    "end": "TBA"
+  }
+}
