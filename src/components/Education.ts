@@ -13,12 +13,12 @@ export class Education extends LitElement {
     start: "",
   };
 
-  static override styles = css`
+  static styles = css`
     .education {
     }
   `;
 
-  override render() {
+  render() {
     const { name, degree, end, start } = this.data;
 
     return html`

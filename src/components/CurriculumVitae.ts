@@ -6,16 +6,17 @@ import { ProfileData } from "../index.js";
 
 @customElement("curriculum-vitae")
 export class CurriculumVitae extends LitElement {
-  static override styles = css`
-    color: tomato;
+  static styles = css`
+    .cv {
+    }
   `;
 
   @state()
   private data = fetch("/data/cv.json").then((r) => r.json());
 
-  override render() {
+  render() {
     return html`
-      <div>
+      <div class="cv">
         ${until(
           this.data.then(
             (data: ProfileData) =>
@@ -24,6 +25,9 @@ export class CurriculumVitae extends LitElement {
                 <cv-education
                   data="${JSON.stringify(data.education)}"
                 ></cv-education>
+                <cv-employment
+                  data="${JSON.stringify(data.employment)}"
+                ></cv-employment>
               `
           ),
           html`<span>Loading...</span>`

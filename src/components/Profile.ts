@@ -18,7 +18,7 @@ export class Profile extends LitElement {
     languages: [],
   };
 
-  static override styles = css`
+  static styles = css`
     .profile {
       display: flex;
       flex-direction: row;
@@ -60,7 +60,7 @@ export class Profile extends LitElement {
     }
   `;
 
-  override render() {
+  render() {
     const { name, dob, home, keywords, links, languages } = this.data;
 
     return html`

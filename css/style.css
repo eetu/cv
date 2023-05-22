@@ -1,7 +1,43 @@
+html {
+  background-color: #e2e2e2;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #5a5a5a;
   max-width: 960px;
   margin: auto;
   padding: 32px;
+  position: relative;
+  background-color: white;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  left: -32px;
+  width: 32px;
+  top: 0;
+  bottom: 0;
+  border-right: 1px dashed #e2e2e2;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  clip-path: inset(0 0 0 -29px);
+
+  background: radial-gradient(circle, transparent 25%, white 27%);
+  background-size: 32px 32px;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  right: -32px;
+  width: 32px;
+  top: 0;
+  bottom: 0;
+  border-left: 1px dashed #e2e2e2;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  clip-path: inset(0 -29px 0 0);
+
+  background: radial-gradient(circle, transparent 25%, white 27%);
+  background-size: 32px 32px;
 }

@@ -17,10 +17,6 @@ export class Section extends LitElement {
       width: 100%;
     }
 
-    label {
-      width: 120px;
-    }
-
     .content {
     }
   `;
