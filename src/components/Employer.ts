@@ -32,6 +32,16 @@ export class Employer extends LitElement {
       border: 0;
       height: 1px;
     }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    a {
+      color: inherit;
+      font-weight: lighter;
+    }
   `;
 
   render() {
@@ -53,7 +63,7 @@ export class Employer extends LitElement {
                 >${project.start} - ${project.end}</cv-section-heading
               >
               <cv-section-content>
-                <p>${project.customer}</p>
+                <p>${project.customer} - ${project.name}</p>
                 <p>${project.description}</p>
                 <p>
                   <cv-keywords
@@ -64,6 +74,17 @@ export class Employer extends LitElement {
                   <cv-keywords
                     keywords=${JSON.stringify(project.keywords)}
                   ></cv-keywords>
+                </p>
+                <p>
+                  <ul>
+                  ${
+                    project.urls &&
+                    repeat(
+                      project.urls,
+                      (url) => html`<li><a href=${url}>${url}</a></li>`
+                    )
+                  }
+                  </ul>
                 </p>
               </cv-section-content>
             </div>
