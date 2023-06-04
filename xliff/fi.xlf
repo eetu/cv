@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="fi" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s1d19244f549ec535">
+  <source>Education</source>
+  <target>Koulutus</target>
+</trans-unit>
+<trans-unit id="s199f5853f4e718f7">
+  <source>Projects</source>
+  <target>Projektit</target>
+</trans-unit>
+<trans-unit id="sfb1bb3709d5bd13c">
+  <source>Work experience</source>
+  <target>Työkokemus</target>
+</trans-unit>
+<trans-unit id="sf7b4b89f3dd4706b">
+  <source>Language skills</source>
+  <target>Kielitaidot</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

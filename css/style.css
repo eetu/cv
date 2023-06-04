@@ -1,10 +1,11 @@
 html {
+  background: linear-gradient(#ececec, #e395ff);
   background-color: #e2e2e2;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #5a5a5a;
+  color: #3b3b3b;
   max-width: 920px;
   margin: auto;
   padding: 32px;

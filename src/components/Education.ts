@@ -1,9 +1,11 @@
+import { localized, msg } from "@lit/localize";
 import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
 import { ProfileData } from "../index.js";
 
 @customElement("cv-education")
+@localized()
 export class Education extends LitElement {
   @property({ type: Object })
   data: ProfileData["education"] = {
@@ -22,7 +24,7 @@ export class Education extends LitElement {
     const { name, degree, end, start } = this.data;
 
     return html`
-      <cv-section label="Koulutus">
+      <cv-section label=${msg("Education")}>
         <cv-section-item label=${name}>
           <cv-section-heading>${start} - ${end}</cv-section-heading>
           <cv-section-content>${degree}</cv-section-content>

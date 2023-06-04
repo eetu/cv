@@ -1,3 +1,4 @@
+import { localized, msg } from "@lit/localize";
 import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { join } from "lit/directives/join.js";
@@ -7,6 +8,7 @@ import { repeat } from "lit/directives/repeat.js";
 import { ProfileData } from "../index.js";
 
 @customElement("cv-profile")
+@localized()
 export class Profile extends LitElement {
   @property({ type: Object })
   data: ProfileData["profile"] = {
@@ -80,7 +82,7 @@ export class Profile extends LitElement {
           <p>${dob}</p>
           <p>${home}</p>
           <p>
-            Kielitaidot:
+            ${msg("Language skills")}:
             ${join(
               map(
                 languages,

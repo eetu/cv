@@ -1,3 +1,4 @@
+import { localized, msg } from "@lit/localize";
 import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { repeat } from "lit/directives/repeat.js";
@@ -5,6 +6,7 @@ import { repeat } from "lit/directives/repeat.js";
 import { ProfileData } from "../index.js";
 
 @customElement("cv-employer")
+@localized()
 export class Employer extends LitElement {
   @property({ type: Object })
   data: ProfileData["employment"]["history"][0] = {
@@ -54,7 +56,7 @@ export class Employer extends LitElement {
           <cv-keywords keywords=${JSON.stringify(tasks)}></cv-keywords>
         </cv-section-content>
       </cv-section-item>
-      <cv-section-item label="Projektit">
+      <cv-section-item label=${msg("Projects")}>
         ${repeat(
           projects,
           (project) => html`

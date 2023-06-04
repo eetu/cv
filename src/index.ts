@@ -2,12 +2,14 @@ import { CurriculumVitae } from "./components/CurriculumVitae";
 import { Education } from "./components/Education";
 import { Employer } from "./components/Employer";
 import { Employment } from "./components/Employment";
+import { Footer } from "./components/Footer";
 import { Keywords } from "./components/Keywords";
 import { Profile } from "./components/Profile";
 import { Section } from "./components/Section";
 import { SectionContent } from "./components/SectionContent";
 import { SectionHeading } from "./components/SectionHeading";
 import { SectionItem } from "./components/SectionItem";
+
 export type ProfileData = {
   profile: {
     name: string;
@@ -63,4 +65,5 @@ export type ProfileData = {
   Employment,
   Employer,
   Keywords,
+  Footer,
 ].map((c) => c);
