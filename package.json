@@ -34,6 +34,6 @@
   "dependencies": {
     "@lit/localize": "^0.11.4",
     "lit": "^2.7.4",
-    "lit-element": "^3.3.2"
+    "lit-element": "^4.1.1"
   }
 }
