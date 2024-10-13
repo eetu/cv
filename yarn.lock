@@ -441,14 +441,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-typescript@npm:^11.1.1":
-  version: 11.1.1
-  resolution: "@rollup/plugin-typescript@npm:11.1.1"
+"@rollup/plugin-typescript@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@rollup/plugin-typescript@npm:12.1.0"
   dependencies:
-    "@rollup/pluginutils": "npm:^5.0.1"
+    "@rollup/pluginutils": "npm:^5.1.0"
     resolve: "npm:^1.22.1"
   peerDependencies:
-    rollup: ^2.14.0||^3.0.0
+    rollup: ^2.14.0||^3.0.0||^4.0.0
     tslib: "*"
     typescript: ">=3.7.0"
   peerDependenciesMeta:
@@ -456,7 +456,7 @@ __metadata:
       optional: true
     tslib:
       optional: true
-  checksum: 10/1a8b405ee35d05ecba01b93bee47cc2f24a2a025244c668cdc6bc0a0e9d6517f130a6ef28f00e1807bd31a282c24bf19a02f9003f95bb8662c1f6c18a27f7b13
+  checksum: 10/93e67032377278be3658988423588f2941eb55ccb540312ab847c050ea62a57d056d3f80c292bf463e90cbc71795498805120a0f244040d8304ba57d9bb8c09e
   languageName: node
   linkType: hard
 
@@ -473,6 +473,22 @@ __metadata:
     rollup:
       optional: true
   checksum: 10/7aebf04d5d25d7d2e9514cc8f81a49b11f093b29eae2862da29022532b66e3de4681f537cc785fdcf438bcdefa3af4453470e7951ca91d6ebea2f41d6aea42d3
+  languageName: node
+  linkType: hard
+
+"@rollup/pluginutils@npm:^5.1.0":
+  version: 5.1.2
+  resolution: "@rollup/pluginutils@npm:5.1.2"
+  dependencies:
+    "@types/estree": "npm:^1.0.0"
+    estree-walker: "npm:^2.0.2"
+    picomatch: "npm:^2.3.1"
+  peerDependencies:
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+  checksum: 10/cc1fe3285ab48915a6535ab2f0c90dc511bd3e63143f8e9994bb036c6c5071fd14d641cff6c89a7fde6a4faa85227d4e2cf46ee36b7d962099e0b9e4c9b8a4b0
   languageName: node
   linkType: hard
 
@@ -1267,7 +1283,7 @@ __metadata:
     "@lit/localize": "npm:^0.11.4"
     "@lit/localize-tools": "npm:^0.6.9"
     "@rollup/plugin-replace": "npm:^6.0.1"
-    "@rollup/plugin-typescript": "npm:^11.1.1"
+    "@rollup/plugin-typescript": "npm:^12.1.0"
     eslint: "npm:^9.12.0"
     eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.0"
     lit: "npm:^2.7.4"
