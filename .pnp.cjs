@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:5.2.0"],\
           ["rollup-plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:7.0.2"],\
           ["serve", "npm:14.2.0"],\
-          ["tslib", "npm:2.5.2"],\
+          ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:7.18.0"]\
         ],\
@@ -573,7 +573,7 @@ const RAW_RUNTIME_STATE =
           ["@types/typescript", null],\
           ["resolve", "patch:resolve@npm%3A1.22.3#optional!builtin<compat/resolve>::version=1.22.3&hash=c3c19d"],\
           ["rollup", "npm:3.22.0"],\
-          ["tslib", "npm:2.5.2"],\
+          ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
         ],\
         "packagePeers": [\
@@ -1597,7 +1597,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:5.2.0"],\
           ["rollup-plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:7.0.2"],\
           ["serve", "npm:14.2.0"],\
-          ["tslib", "npm:2.5.2"],\
+          ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:7.18.0"]\
         ],\
@@ -4447,10 +4447,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tslib", [\
-      ["npm:2.5.2", {\
-        "packageLocation": "./.yarn/cache/tslib-npm-2.5.2-3f1b58afbb-263607d3f0.zip/node_modules/tslib/",\
+      ["npm:2.7.0", {\
+        "packageLocation": "./.yarn/cache/tslib-npm-2.7.0-21668f5c21-9a5b47ddac.zip/node_modules/tslib/",\
         "packageDependencies": [\
-          ["tslib", "npm:2.5.2"]\
+          ["tslib", "npm:2.7.0"]\
         ],\
         "linkType": "HARD"\
       }]\
