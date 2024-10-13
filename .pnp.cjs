@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.0"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.12.0"],\
           ["eslint-config-node", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config-node.git#commit=63a71851d4cbcbd95c4f4ef3e34ef259b54c7804"],\
-          ["lit", "npm:2.7.4"],\
+          ["lit", "npm:3.2.1"],\
           ["lit-element", "npm:4.1.1"],\
           ["prettier", "npm:3.3.3"],\
           ["rimraf", "npm:6.0.1"],\
@@ -1781,7 +1781,7 @@ const RAW_RUNTIME_STATE =
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.0"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.12.0"],\
           ["eslint-config-node", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config-node.git#commit=63a71851d4cbcbd95c4f4ef3e34ef259b54c7804"],\
-          ["lit", "npm:2.7.4"],\
+          ["lit", "npm:3.2.1"],\
           ["lit-element", "npm:4.1.1"],\
           ["prettier", "npm:3.3.3"],\
           ["rimraf", "npm:6.0.1"],\
@@ -3087,16 +3087,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lit", [\
-      ["npm:2.7.4", {\
-        "packageLocation": "./.yarn/cache/lit-npm-2.7.4-9e53493901-73c4922590.zip/node_modules/lit/",\
-        "packageDependencies": [\
-          ["lit", "npm:2.7.4"],\
-          ["@lit/reactive-element", "npm:1.6.1"],\
-          ["lit-element", "npm:3.3.2"],\
-          ["lit-html", "npm:2.7.4"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:2.7.5", {\
         "packageLocation": "./.yarn/cache/lit-npm-2.7.5-bef28da03f-ff449a5a2f.zip/node_modules/lit/",\
         "packageDependencies": [\
