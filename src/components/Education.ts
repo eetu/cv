@@ -1,11 +1,10 @@
-import { localized, msg } from "@lit/localize";
+import { msg } from "@lit/localize";
 import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 
 import { ProfileData } from "../index.js";
 
 @customElement("cv-education")
-@localized()
 export class Education extends LitElement {
   @property({ type: Object })
   data: ProfileData["education"] = {

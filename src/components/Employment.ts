@@ -1,4 +1,4 @@
-import { localized, msg } from "@lit/localize";
+import { msg } from "@lit/localize";
 import { css, html, LitElement } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { repeat } from "lit/directives/repeat.js";
@@ -6,7 +6,6 @@ import { repeat } from "lit/directives/repeat.js";
 import { ProfileData } from "../index.js";
 
 @customElement("cv-employment")
-@localized()
 export class Employment extends LitElement {
   @property({ type: Object })
   data: ProfileData["employment"] = {
