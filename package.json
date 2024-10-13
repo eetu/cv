@@ -21,7 +21,7 @@
     "eslint": "^9.12.0",
     "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.1.0",
     "prettier": "^3.3.3",
-    "rimraf": "^5.0.1",
+    "rimraf": "^6.0.1",
     "rollup": "^3.22.0",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
