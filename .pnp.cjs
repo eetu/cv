@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@lit/localize", "npm:0.11.4"],\
-          ["@lit/localize-tools", "npm:0.6.9"],\
+          ["@lit/localize-tools", "npm:0.8.0"],\
           ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.1"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.0"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.12.0"],\
@@ -360,23 +360,32 @@ const RAW_RUNTIME_STATE =
           ["lit", "npm:2.7.5"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:0.12.2", {\
+        "packageLocation": "./.yarn/cache/@lit-localize-npm-0.12.2-6aeeab5976-f611e5b6c0.zip/node_modules/@lit/localize/",\
+        "packageDependencies": [\
+          ["@lit/localize", "npm:0.12.2"],\
+          ["lit", "npm:3.2.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["@lit/localize-tools", [\
-      ["npm:0.6.9", {\
-        "packageLocation": "./.yarn/cache/@lit-localize-tools-npm-0.6.9-4f4f96fd9f-bde7f6bd80.zip/node_modules/@lit/localize-tools/",\
+      ["npm:0.8.0", {\
+        "packageLocation": "./.yarn/cache/@lit-localize-tools-npm-0.8.0-b29fbf0f76-acf734c827.zip/node_modules/@lit/localize-tools/",\
         "packageDependencies": [\
-          ["@lit/localize-tools", "npm:0.6.9"],\
-          ["@lit/localize", "npm:0.11.4"],\
+          ["@lit/localize-tools", "npm:0.8.0"],\
+          ["@lit/localize", "npm:0.12.2"],\
+          ["@parse5/tools", "npm:0.3.0"],\
           ["@xmldom/xmldom", "npm:0.8.8"],\
           ["fast-glob", "npm:3.2.12"],\
           ["fs-extra", "npm:10.1.0"],\
           ["jsonschema", "npm:1.4.1"],\
-          ["lit", "npm:2.7.5"],\
+          ["lit", "npm:3.2.1"],\
           ["minimist", "npm:1.2.8"],\
-          ["parse5", "npm:6.0.1"],\
+          ["parse5", "npm:7.2.0"],\
           ["source-map-support", "npm:0.5.21"],\
-          ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"]\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -525,6 +534,16 @@ const RAW_RUNTIME_STATE =
           ["node-gyp", "npm:9.3.1"],\
           ["read-package-json-fast", "npm:3.0.2"],\
           ["which", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parse5/tools", [\
+      ["npm:0.3.0", {\
+        "packageLocation": "./.yarn/cache/@parse5-tools-npm-0.3.0-08d8d6d2c8-11cdf896fe.zip/node_modules/@parse5/tools/",\
+        "packageDependencies": [\
+          ["@parse5/tools", "npm:0.3.0"],\
+          ["parse5", "npm:7.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1613,7 +1632,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["cv", "workspace:."],\
           ["@lit/localize", "npm:0.11.4"],\
-          ["@lit/localize-tools", "npm:0.6.9"],\
+          ["@lit/localize-tools", "npm:0.8.0"],\
           ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.1"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.0"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.12.0"],\
@@ -1792,6 +1811,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["encoding", "npm:0.1.13"],\
           ["iconv-lite", "npm:0.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["entities", [\
+      ["npm:4.5.0", {\
+        "packageLocation": "./.yarn/cache/entities-npm-4.5.0-7cdb83b832-ede2a35c9b.zip/node_modules/entities/",\
+        "packageDependencies": [\
+          ["entities", "npm:4.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2934,6 +2962,16 @@ const RAW_RUNTIME_STATE =
           ["lit-html", "npm:2.7.4"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:3.2.1", {\
+        "packageLocation": "./.yarn/cache/lit-npm-3.2.1-27cb5b7782-6a2cd0547b.zip/node_modules/lit/",\
+        "packageDependencies": [\
+          ["lit", "npm:3.2.1"],\
+          ["@lit/reactive-element", "npm:2.0.4"],\
+          ["lit-element", "npm:4.1.1"],\
+          ["lit-html", "npm:3.2.1"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["lit-element", [\
@@ -3640,10 +3678,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["parse5", [\
-      ["npm:6.0.1", {\
-        "packageLocation": "./.yarn/cache/parse5-npm-6.0.1-70a35a494a-dfb110581f.zip/node_modules/parse5/",\
+      ["npm:7.2.0", {\
+        "packageLocation": "./.yarn/cache/parse5-npm-7.2.0-963394766d-49dabfe848.zip/node_modules/parse5/",\
         "packageDependencies": [\
-          ["parse5", "npm:6.0.1"]\
+          ["parse5", "npm:7.2.0"],\
+          ["entities", "npm:4.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4586,17 +4625,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["typescript", [\
-      ["patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587", {\
-        "packageLocation": "./.yarn/cache/typescript-patch-32ada147aa-5659316360.zip/node_modules/typescript/",\
-        "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058", {\
         "packageLocation": "./.yarn/cache/typescript-patch-ce5481e54d-b1b62606c7.zip/node_modules/typescript/",\
         "packageDependencies": [\
           ["typescript", "patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07", {\
+        "packageLocation": "./.yarn/cache/typescript-patch-fe43cd9db9-746fdd0865.zip/node_modules/typescript/",\
+        "packageDependencies": [\
+          ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"]\
         ],\
         "linkType": "HARD"\
       }]\
