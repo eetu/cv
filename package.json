@@ -20,7 +20,7 @@
     "@rollup/plugin-typescript": "^11.1.1",
     "eslint": "^9.12.0",
     "eslint-config-node": "https://github.com/eetu/eslint-config-node#2.1.0",
-    "prettier": "^2.8.8",
+    "prettier": "^3.3.3",
     "rimraf": "^5.0.1",
     "rollup": "^3.22.0",
     "rollup-plugin-filesize": "^10.0.0",
