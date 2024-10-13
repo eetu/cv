@@ -235,6 +235,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lit-labs/ssr-dom-shim@npm:^1.2.0":
+  version: 1.2.1
+  resolution: "@lit-labs/ssr-dom-shim@npm:1.2.1"
+  checksum: 10/48e28c1f132eb1d5b385454dd23db2837bf913d108a0908e73816ceb594b1b09db34e05ccb86a18fb9c02fc100d62bbab350b6ec88e2c175f2c21c5f0220bfdd
+  languageName: node
+  linkType: hard
+
 "@lit/localize-tools@npm:^0.6.9":
   version: 0.6.9
   resolution: "@lit/localize-tools@npm:0.6.9"
@@ -280,6 +287,15 @@ __metadata:
   dependencies:
     "@lit-labs/ssr-dom-shim": "npm:^1.0.0"
   checksum: 10/765c38691743e3729a4e7511cb5ff2fcb105321805dedfdc43d214b137d45a8050640a3e235a23e1008e7d8642308a14cb6f20fe716c0a08d1f3db3abae6549b
+  languageName: node
+  linkType: hard
+
+"@lit/reactive-element@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "@lit/reactive-element@npm:2.0.4"
+  dependencies:
+    "@lit-labs/ssr-dom-shim": "npm:^1.2.0"
+  checksum: 10/16aa5a8d917bce24d6c7cb5979f0a978e91f6205b4d9a8ebea2baf965e7a8215dab581b83b331123b04190612f4992ecc7b219cf00cf9b82f53403b08b1b6d49
   languageName: node
   linkType: hard
 
@@ -1248,7 +1264,7 @@ __metadata:
     eslint: "npm:^9.12.0"
     eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.0"
     lit: "npm:^2.7.4"
-    lit-element: "npm:^3.3.2"
+    lit-element: "npm:^4.1.1"
     prettier: "npm:^2.8.8"
     rimraf: "npm:^5.0.1"
     rollup: "npm:^3.22.0"
@@ -2305,7 +2321,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lit-element@npm:^3.3.0, lit-element@npm:^3.3.2":
+"lit-element@npm:^3.3.0":
   version: 3.3.2
   resolution: "lit-element@npm:3.3.2"
   dependencies:
@@ -2316,12 +2332,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lit-element@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "lit-element@npm:4.1.1"
+  dependencies:
+    "@lit-labs/ssr-dom-shim": "npm:^1.2.0"
+    "@lit/reactive-element": "npm:^2.0.4"
+    lit-html: "npm:^3.2.0"
+  checksum: 10/5d1576f63fec21ac10247a67232ff7f1640210cd5b10b8082eb692242b1f74ef2a822d05bd0e330baf5eeb6f0f9c8d5a223e11525f4f96ea668e74009f0d0d23
+  languageName: node
+  linkType: hard
+
 "lit-html@npm:^2.7.0":
   version: 2.7.4
   resolution: "lit-html@npm:2.7.4"
   dependencies:
     "@types/trusted-types": "npm:^2.0.2"
   checksum: 10/d773b7919a4d927dc4a3141c9b32b64c859dc1e7064cf5a603aa4cb6736fde2973b4f1a7be238e7df7f0c4340f8dee7e61f570d087cfd2ef83b091626e8c8ee4
+  languageName: node
+  linkType: hard
+
+"lit-html@npm:^3.2.0":
+  version: 3.2.1
+  resolution: "lit-html@npm:3.2.1"
+  dependencies:
+    "@types/trusted-types": "npm:^2.0.2"
+  checksum: 10/d670a8e49da98d04b83dd13807fec86305d85915b30814c5461e7a34d001ce1efcd8395467897118d0ab5c09d9c224617b25a4eb2b743491f634f6a3bf155753
   languageName: node
   linkType: hard
 
