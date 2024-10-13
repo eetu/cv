@@ -41,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-filesize", "npm:10.0.0"],\
           ["rollup-plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:5.2.0"],\
           ["rollup-plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:7.0.2"],\
-          ["serve", "npm:14.2.0"],\
+          ["serve", "npm:14.2.3"],\
           ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:7.18.0"]\
@@ -1135,10 +1135,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@zeit/schemas", [\
-      ["npm:2.29.0", {\
-        "packageLocation": "./.yarn/cache/@zeit-schemas-npm-2.29.0-2ac7596f03-ad6afd42e7.zip/node_modules/@zeit/schemas/",\
+      ["npm:2.36.0", {\
+        "packageLocation": "./.yarn/cache/@zeit-schemas-npm-2.36.0-b8cc0b4c22-0d6e2ecf57.zip/node_modules/@zeit/schemas/",\
         "packageDependencies": [\
-          ["@zeit/schemas", "npm:2.29.0"]\
+          ["@zeit/schemas", "npm:2.36.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1246,10 +1246,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:8.11.0", {\
-        "packageLocation": "./.yarn/cache/ajv-npm-8.11.0-83d029789c-aa0dfd6ceb.zip/node_modules/ajv/",\
+      ["npm:8.12.0", {\
+        "packageLocation": "./.yarn/cache/ajv-npm-8.12.0-3bf6e30741-b406f3b79b.zip/node_modules/ajv/",\
         "packageDependencies": [\
-          ["ajv", "npm:8.11.0"],\
+          ["ajv", "npm:8.12.0"],\
           ["fast-deep-equal", "npm:3.1.3"],\
           ["json-schema-traverse", "npm:1.0.0"],\
           ["require-from-string", "npm:2.0.2"],\
@@ -1789,7 +1789,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-filesize", "npm:10.0.0"],\
           ["rollup-plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:5.2.0"],\
           ["rollup-plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:7.0.2"],\
-          ["serve", "npm:14.2.0"],\
+          ["serve", "npm:14.2.3"],\
           ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:7.18.0"]\
@@ -4343,12 +4343,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["serve", [\
-      ["npm:14.2.0", {\
-        "packageLocation": "./.yarn/cache/serve-npm-14.2.0-52c615436d-0fcc61d73b.zip/node_modules/serve/",\
+      ["npm:14.2.3", {\
+        "packageLocation": "./.yarn/cache/serve-npm-14.2.3-e9733943f3-8ca6a8cc0a.zip/node_modules/serve/",\
         "packageDependencies": [\
-          ["serve", "npm:14.2.0"],\
-          ["@zeit/schemas", "npm:2.29.0"],\
-          ["ajv", "npm:8.11.0"],\
+          ["serve", "npm:14.2.3"],\
+          ["@zeit/schemas", "npm:2.36.0"],\
+          ["ajv", "npm:8.12.0"],\
           ["arg", "npm:5.0.2"],\
           ["boxen", "npm:7.0.0"],\
           ["chalk", "npm:5.0.1"],\
