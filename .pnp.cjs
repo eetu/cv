@@ -27,7 +27,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@lit/localize", "npm:0.11.4"],\
+          ["@lit/localize", "npm:0.12.2"],\
           ["@lit/localize-tools", "npm:0.8.0"],\
           ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.1"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.0"],\
@@ -350,13 +350,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@lit-labs/ssr-dom-shim", [\
-      ["npm:1.1.1", {\
-        "packageLocation": "./.yarn/cache/@lit-labs-ssr-dom-shim-npm-1.1.1-8b753a4141-f401a2bc71.zip/node_modules/@lit-labs/ssr-dom-shim/",\
-        "packageDependencies": [\
-          ["@lit-labs/ssr-dom-shim", "npm:1.1.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:1.2.1", {\
         "packageLocation": "./.yarn/cache/@lit-labs-ssr-dom-shim-npm-1.2.1-d14ce3e3e5-48e28c1f13.zip/node_modules/@lit-labs/ssr-dom-shim/",\
         "packageDependencies": [\
@@ -366,15 +359,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@lit/localize", [\
-      ["npm:0.11.4", {\
-        "packageLocation": "./.yarn/cache/@lit-localize-npm-0.11.4-cc873db5e8-ecddb1c4d3.zip/node_modules/@lit/localize/",\
-        "packageDependencies": [\
-          ["@lit/localize", "npm:0.11.4"],\
-          ["@lit/reactive-element", "npm:1.6.2"],\
-          ["lit", "npm:2.7.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:0.12.2", {\
         "packageLocation": "./.yarn/cache/@lit-localize-npm-0.12.2-6aeeab5976-f611e5b6c0.zip/node_modules/@lit/localize/",\
         "packageDependencies": [\
@@ -405,22 +389,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@lit/reactive-element", [\
-      ["npm:1.6.1", {\
-        "packageLocation": "./.yarn/cache/@lit-reactive-element-npm-1.6.1-9b3c9ed19f-fdda9c48d8.zip/node_modules/@lit/reactive-element/",\
-        "packageDependencies": [\
-          ["@lit/reactive-element", "npm:1.6.1"],\
-          ["@lit-labs/ssr-dom-shim", "npm:1.1.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:1.6.2", {\
-        "packageLocation": "./.yarn/cache/@lit-reactive-element-npm-1.6.2-1d20024e26-765c386917.zip/node_modules/@lit/reactive-element/",\
-        "packageDependencies": [\
-          ["@lit/reactive-element", "npm:1.6.2"],\
-          ["@lit-labs/ssr-dom-shim", "npm:1.1.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:2.0.4", {\
         "packageLocation": "./.yarn/cache/@lit-reactive-element-npm-2.0.4-4836436301-16aa5a8d91.zip/node_modules/@lit/reactive-element/",\
         "packageDependencies": [\
@@ -1776,7 +1744,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["cv", "workspace:."],\
-          ["@lit/localize", "npm:0.11.4"],\
+          ["@lit/localize", "npm:0.12.2"],\
           ["@lit/localize-tools", "npm:0.8.0"],\
           ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.1"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.0"],\
@@ -3075,16 +3043,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lit", [\
-      ["npm:2.7.5", {\
-        "packageLocation": "./.yarn/cache/lit-npm-2.7.5-bef28da03f-ff449a5a2f.zip/node_modules/lit/",\
-        "packageDependencies": [\
-          ["lit", "npm:2.7.5"],\
-          ["@lit/reactive-element", "npm:1.6.1"],\
-          ["lit-element", "npm:3.3.2"],\
-          ["lit-html", "npm:2.7.4"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.2.1", {\
         "packageLocation": "./.yarn/cache/lit-npm-3.2.1-27cb5b7782-6a2cd0547b.zip/node_modules/lit/",\
         "packageDependencies": [\
@@ -3097,16 +3055,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lit-element", [\
-      ["npm:3.3.2", {\
-        "packageLocation": "./.yarn/cache/lit-element-npm-3.3.2-4cb4695bd1-61a49b8ca0.zip/node_modules/lit-element/",\
-        "packageDependencies": [\
-          ["lit-element", "npm:3.3.2"],\
-          ["@lit-labs/ssr-dom-shim", "npm:1.1.1"],\
-          ["@lit/reactive-element", "npm:1.6.1"],\
-          ["lit-html", "npm:2.7.4"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:4.1.1", {\
         "packageLocation": "./.yarn/cache/lit-element-npm-4.1.1-bb20932b82-5d1576f63f.zip/node_modules/lit-element/",\
         "packageDependencies": [\
@@ -3119,14 +3067,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["lit-html", [\
-      ["npm:2.7.4", {\
-        "packageLocation": "./.yarn/cache/lit-html-npm-2.7.4-e950aa5037-d773b7919a.zip/node_modules/lit-html/",\
-        "packageDependencies": [\
-          ["lit-html", "npm:2.7.4"],\
-          ["@types/trusted-types", "npm:2.0.3"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:3.2.1", {\
         "packageLocation": "./.yarn/cache/lit-html-npm-3.2.1-1662fc597d-d670a8e49d.zip/node_modules/lit-html/",\
         "packageDependencies": [\
