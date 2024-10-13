@@ -211,10 +211,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/sourcemap-codec@npm:^1.4.10, @jridgewell/sourcemap-codec@npm:^1.4.13":
+"@jridgewell/sourcemap-codec@npm:^1.4.10":
   version: 1.4.15
   resolution: "@jridgewell/sourcemap-codec@npm:1.4.15"
   checksum: 10/89960ac087781b961ad918978975bcdf2051cd1741880469783c42de64239703eab9db5230d776d8e6a09d73bb5e4cb964e07d93ee6e2e7aea5a7d726e865c09
+  languageName: node
+  linkType: hard
+
+"@jridgewell/sourcemap-codec@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "@jridgewell/sourcemap-codec@npm:1.5.0"
+  checksum: 10/4ed6123217569a1484419ac53f6ea0d9f3b57e5b57ab30d7c267bdb27792a27eb0e4b08e84a2680aa55cc2f2b411ffd6ec3db01c44fdc6dc43aca4b55f8374fd
   languageName: node
   linkType: hard
 
@@ -419,18 +426,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-replace@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "@rollup/plugin-replace@npm:5.0.2"
+"@rollup/plugin-replace@npm:^6.0.1":
+  version: 6.0.1
+  resolution: "@rollup/plugin-replace@npm:6.0.1"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
-    magic-string: "npm:^0.27.0"
+    magic-string: "npm:^0.30.3"
   peerDependencies:
-    rollup: ^1.20.0||^2.0.0||^3.0.0
+    rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 10/b352149334b7631a267846e5920aedcfe49b5307631056fa4c1129ac590596cf7fd52b364bc6b22457e04be6113341f16a07e2f8e257cf593fa9b102fb8615d5
+  checksum: 10/130bfbaac8fe4330b7a98ec3b21a1b4b5b3e239fbc5ba95f582f2c81501125693f3ce9252bdf21e2501d761052a3822d12a476fa45067f60ba5f0abd304eb160
   languageName: node
   linkType: hard
 
@@ -1259,7 +1266,7 @@ __metadata:
   dependencies:
     "@lit/localize": "npm:^0.11.4"
     "@lit/localize-tools": "npm:^0.6.9"
-    "@rollup/plugin-replace": "npm:^5.0.2"
+    "@rollup/plugin-replace": "npm:^6.0.1"
     "@rollup/plugin-typescript": "npm:^11.1.1"
     eslint: "npm:^9.12.0"
     eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.0"
@@ -2422,12 +2429,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.27.0":
-  version: 0.27.0
-  resolution: "magic-string@npm:0.27.0"
+"magic-string@npm:^0.30.3":
+  version: 0.30.12
+  resolution: "magic-string@npm:0.30.12"
   dependencies:
-    "@jridgewell/sourcemap-codec": "npm:^1.4.13"
-  checksum: 10/10a18a48d22fb14467d6cb4204aba58d6790ae7ba023835dc7a65e310cf216f042a17fab1155ba43e47117310a9b7c3fd3bb79f40be40f5124d6b1af9e96399b
+    "@jridgewell/sourcemap-codec": "npm:^1.5.0"
+  checksum: 10/98016180a52b28efc1362152b45671067facccdaead6b70c1c14c566cba98491bc2e1336474b0996397730dca24400e85649da84d3da62b2560ed03c067573e6
   languageName: node
   linkType: hard
 
