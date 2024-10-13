@@ -1338,6 +1338,7 @@ __metadata:
     lit: "npm:^3.2.1"
     lit-element: "npm:^4.1.1"
     prettier: "npm:^3.3.3"
+    prettier-config: "https://github.com/eetu/prettier-config#1.0.0"
     rimraf: "npm:^6.0.1"
     rollup: "npm:^4.24.0"
     rollup-plugin-filesize: "npm:^10.0.0"
@@ -3156,6 +3157,15 @@ __metadata:
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1"
   checksum: 10/0b9d2c76801ca652a7f64892dd37b7e3fab149a37d2424920099bf894acccc62abb4424af2155ab36dea8744843060a2d8ddc983518d0b1e22265a22324b72ed
+  languageName: node
+  linkType: hard
+
+"prettier-config@https://github.com/eetu/prettier-config#1.0.0":
+  version: 1.0.0
+  resolution: "prettier-config@https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"
+  peerDependencies:
+    prettier: ">= 3"
+  checksum: 10/62db5ae9a337d33ceaf37dc0741df5d616ff5077a8f1222d17d9f8e938262353c88c7daedf7c25afd2bc6b891499bc319b92c2646c1e48bfb5ac72bf5dd0f222
   languageName: node
   linkType: hard
 

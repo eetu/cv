@@ -40,29 +40,28 @@ export class CurriculumVitae extends LitElement {
       <div class="cv">
         ${until(
           this.data.then(
-            (data: ProfileData) =>
-              html`
-                <div class="language">
-                  <select @change="${this.handleLanguageChange}">
-                    ${allLocales.map(
-                      (locale) =>
-                        html`<option
-                          value=${locale}
-                          ?selected=${locale === getLocale()}
-                        >
-                          ${locale}
-                        </option>`
-                    )}
-                  </select>
-                </div>
-                <cv-profile data="${JSON.stringify(data.profile)}"></cv-profile>
-                <cv-education
-                  data="${JSON.stringify(data.education)}"
-                ></cv-education>
-                <cv-employment
-                  data="${JSON.stringify(data.employment)}"
-                ></cv-employment>
-              `
+            (data: ProfileData) => html`
+              <div class="language">
+                <select @change="${this.handleLanguageChange}">
+                  ${allLocales.map(
+                    (locale) =>
+                      html`<option
+                        value=${locale}
+                        ?selected=${locale === getLocale()}
+                      >
+                        ${locale}
+                      </option>`
+                  )}
+                </select>
+              </div>
+              <cv-profile data="${JSON.stringify(data.profile)}"></cv-profile>
+              <cv-education
+                data="${JSON.stringify(data.education)}"
+              ></cv-education>
+              <cv-employment
+                data="${JSON.stringify(data.employment)}"
+              ></cv-employment>
+            `
           ),
           html`<span>Loading...</span>`
         )}
