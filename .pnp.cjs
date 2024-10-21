@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
           ["rimraf", "npm:6.0.1"],\
           ["rollup", "npm:4.24.0"],\
           ["rollup-plugin-filesize", "npm:10.0.0"],\
-          ["serve", "npm:14.2.3"],\
+          ["serve", "npm:14.2.4"],\
           ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:8.8.1"]\
@@ -1738,7 +1738,7 @@ const RAW_RUNTIME_STATE =
           ["rimraf", "npm:6.0.1"],\
           ["rollup", "npm:4.24.0"],\
           ["rollup-plugin-filesize", "npm:10.0.0"],\
-          ["serve", "npm:14.2.3"],\
+          ["serve", "npm:14.2.4"],\
           ["tslib", "npm:2.7.0"],\
           ["typescript", "patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:8.8.1"]\
@@ -2278,16 +2278,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/fast-levenshtein-npm-2.0.6-fcd74b8df5-eb7e220ecf.zip/node_modules/fast-levenshtein/",\
         "packageDependencies": [\
           ["fast-levenshtein", "npm:2.0.6"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["fast-url-parser", [\
-      ["npm:1.1.3", {\
-        "packageLocation": "./.yarn/cache/fast-url-parser-npm-1.1.3-9be698120a-6d33f46ce9.zip/node_modules/fast-url-parser/",\
-        "packageDependencies": [\
-          ["fast-url-parser", "npm:1.1.3"],\
-          ["punycode", "npm:1.4.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3800,10 +3790,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["path-to-regexp", [\
-      ["npm:2.2.1", {\
-        "packageLocation": "./.yarn/cache/path-to-regexp-npm-2.2.1-b79f8bb303-1a7125f8c1.zip/node_modules/path-to-regexp/",\
+      ["npm:3.3.0", {\
+        "packageLocation": "./.yarn/cache/path-to-regexp-npm-3.3.0-67764d7b0a-8d256383af.zip/node_modules/path-to-regexp/",\
         "packageDependencies": [\
-          ["path-to-regexp", "npm:2.2.1"]\
+          ["path-to-regexp", "npm:3.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3900,13 +3890,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["punycode", [\
-      ["npm:1.4.1", {\
-        "packageLocation": "./.yarn/cache/punycode-npm-1.4.1-be4c23e6d2-af2700dde1.zip/node_modules/punycode/",\
-        "packageDependencies": [\
-          ["punycode", "npm:1.4.1"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:2.3.0", {\
         "packageLocation": "./.yarn/cache/punycode-npm-2.3.0-df4bdce06b-d4e7fbb96f.zip/node_modules/punycode/",\
         "packageDependencies": [\
@@ -4196,10 +4179,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["serve", [\
-      ["npm:14.2.3", {\
-        "packageLocation": "./.yarn/cache/serve-npm-14.2.3-e9733943f3-8ca6a8cc0a.zip/node_modules/serve/",\
+      ["npm:14.2.4", {\
+        "packageLocation": "./.yarn/cache/serve-npm-14.2.4-fa63e36b8f-79627f3992.zip/node_modules/serve/",\
         "packageDependencies": [\
-          ["serve", "npm:14.2.3"],\
+          ["serve", "npm:14.2.4"],\
           ["@zeit/schemas", "npm:2.36.0"],\
           ["ajv", "npm:8.12.0"],\
           ["arg", "npm:5.0.2"],\
@@ -4209,24 +4192,23 @@ const RAW_RUNTIME_STATE =
           ["clipboardy", "npm:3.0.0"],\
           ["compression", "npm:1.7.4"],\
           ["is-port-reachable", "npm:4.0.0"],\
-          ["serve-handler", "npm:6.1.5"],\
+          ["serve-handler", "npm:6.1.6"],\
           ["update-check", "npm:1.5.4"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["serve-handler", [\
-      ["npm:6.1.5", {\
-        "packageLocation": "./.yarn/cache/serve-handler-npm-6.1.5-42f02a15c9-cab6f381d3.zip/node_modules/serve-handler/",\
+      ["npm:6.1.6", {\
+        "packageLocation": "./.yarn/cache/serve-handler-npm-6.1.6-789180cd92-7e7d93eb7e.zip/node_modules/serve-handler/",\
         "packageDependencies": [\
-          ["serve-handler", "npm:6.1.5"],\
+          ["serve-handler", "npm:6.1.6"],\
           ["bytes", "npm:3.0.0"],\
           ["content-disposition", "npm:0.5.2"],\
-          ["fast-url-parser", "npm:1.1.3"],\
           ["mime-types", "npm:2.1.18"],\
           ["minimatch", "npm:3.1.2"],\
           ["path-is-inside", "npm:1.0.2"],\
-          ["path-to-regexp", "npm:2.2.1"],\
+          ["path-to-regexp", "npm:3.3.0"],\
           ["range-parser", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
