@@ -32,7 +32,7 @@
     "serve": "^14.2.3",
     "tslib": "^2.7.0",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.8.1"
+    "typescript-eslint": "^8.10.0"
   },
   "dependencies": {
     "@lit/localize": "^0.12.2",
