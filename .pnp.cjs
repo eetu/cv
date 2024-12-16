@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@lit/localize", "npm:0.12.2"],\
           ["@lit/localize-tools", "npm:0.8.0"],\
           ["@rollup/plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:15.3.0"],\
-          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.1"],\
+          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2"],\
           ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:0.4.4"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.1"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.16.0"],\
@@ -537,17 +537,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@rollup/plugin-replace", [\
-      ["npm:6.0.1", {\
-        "packageLocation": "./.yarn/cache/@rollup-plugin-replace-npm-6.0.1-be1d2be519-130bfbaac8.zip/node_modules/@rollup/plugin-replace/",\
+      ["npm:6.0.2", {\
+        "packageLocation": "./.yarn/cache/@rollup-plugin-replace-npm-6.0.2-dd514751aa-819d2b8eed.zip/node_modules/@rollup/plugin-replace/",\
         "packageDependencies": [\
-          ["@rollup/plugin-replace", "npm:6.0.1"]\
+          ["@rollup/plugin-replace", "npm:6.0.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.1", {\
-        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-replace-virtual-2e64b3e26b/0/cache/@rollup-plugin-replace-npm-6.0.1-be1d2be519-130bfbaac8.zip/node_modules/@rollup/plugin-replace/",\
+      ["virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-replace-virtual-daf3266bd5/0/cache/@rollup-plugin-replace-npm-6.0.2-dd514751aa-819d2b8eed.zip/node_modules/@rollup/plugin-replace/",\
         "packageDependencies": [\
-          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.1"],\
+          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2"],\
           ["@rollup/pluginutils", "virtual:b28d539db24f31b74545bc982f1287ca28b17875dd13ee0e79141356610ea7c1d83b0ef9a2b06e266702c83b81496bc4a49a2082307d639938a0746cf0a95a32#npm:5.0.2"],\
           ["@types/rollup", null],\
           ["magic-string", "npm:0.30.12"],\
@@ -1777,7 +1777,7 @@ const RAW_RUNTIME_STATE =
           ["@lit/localize", "npm:0.12.2"],\
           ["@lit/localize-tools", "npm:0.8.0"],\
           ["@rollup/plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:15.3.0"],\
-          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.1"],\
+          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2"],\
           ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:0.4.4"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.1"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.16.0"],\
