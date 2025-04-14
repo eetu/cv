@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-filesize", "npm:10.0.0"],\
           ["serve", "npm:14.2.4"],\
           ["tslib", "npm:2.8.1"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:8.29.1"]\
         ],\
         "linkType": "SOFT"\
@@ -623,7 +623,7 @@ const RAW_RUNTIME_STATE =
           ["resolve", "patch:resolve@npm%3A1.22.3#optional!builtin<compat/resolve>::version=1.22.3&hash=c3c19d"],\
           ["rollup", "npm:4.40.0"],\
           ["tslib", "npm:2.8.1"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "packagePeers": [\
           "@types/rollup",\
@@ -1032,7 +1032,7 @@ const RAW_RUNTIME_STATE =
           ["ignore", "npm:5.3.2"],\
           ["natural-compare", "npm:1.4.0"],\
           ["ts-api-utils", "virtual:279567d28865968a1edae31b41e12b670c522bf31e1282ca803ae69876e0b98c2851375c41e7e81de8e11c67abb9d81d45f4f14884c5618274bc58b4632f03f5#npm:2.0.1"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -1065,7 +1065,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/visitor-keys", "npm:8.29.1"],\
           ["debug", "virtual:ac3d8e680759ce54399273724d44e041d6c9b73454d191d411a8c44bb27e22f02aaf6ed9d3ad0ac1c298eac4833cff369c9c7b84c573016112c4f84be2cd8543#npm:4.3.4"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.24.0"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -1106,7 +1106,7 @@ const RAW_RUNTIME_STATE =
           ["debug", "virtual:ac3d8e680759ce54399273724d44e041d6c9b73454d191d411a8c44bb27e22f02aaf6ed9d3ad0ac1c298eac4833cff369c9c7b84c573016112c4f84be2cd8543#npm:4.3.4"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.24.0"],\
           ["ts-api-utils", "virtual:279567d28865968a1edae31b41e12b670c522bf31e1282ca803ae69876e0b98c2851375c41e7e81de8e11c67abb9d81d45f4f14884c5618274bc58b4632f03f5#npm:2.0.1"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -1147,7 +1147,7 @@ const RAW_RUNTIME_STATE =
           ["minimatch", "npm:9.0.5"],\
           ["semver", "npm:7.6.3"],\
           ["ts-api-utils", "virtual:279567d28865968a1edae31b41e12b670c522bf31e1282ca803ae69876e0b98c2851375c41e7e81de8e11c67abb9d81d45f4f14884c5618274bc58b4632f03f5#npm:2.0.1"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "packagePeers": [\
           "@types/typescript",\
@@ -1175,7 +1175,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/types", "npm:8.29.1"],\
           ["@typescript-eslint/typescript-estree", "virtual:5ab6c09b6f1adf7cf547268390c65462f1e89bce4fd36a006e23983727459aa3d3ed96694448b95b66b326ad9854640deec1451ee5cdc6dfb9f9f8b033333d78#npm:8.29.1"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.24.0"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
@@ -1826,7 +1826,7 @@ const RAW_RUNTIME_STATE =
           ["rollup-plugin-filesize", "npm:10.0.0"],\
           ["serve", "npm:14.2.4"],\
           ["tslib", "npm:2.8.1"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:8.29.1"]\
         ],\
         "linkType": "SOFT"\
@@ -2109,7 +2109,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-simple-import-sort", "virtual:72ecc33e010baa563b4cc677b3a0448cb7d14dea8996e24500dce3ba0932f97949a677943dc24137a3b251633025e0f1bc3e57d43541fc9cd660a1126346f8ba#npm:12.1.1"],\
           ["eslint-plugin-unused-imports", "virtual:72ecc33e010baa563b4cc677b3a0448cb7d14dea8996e24500dce3ba0932f97949a677943dc24137a3b251633025e0f1bc3e57d43541fc9cd660a1126346f8ba#npm:4.1.4"],\
           ["prettier", "npm:3.5.3"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"],\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:8.29.1"]\
         ],\
         "packagePeers": [\
@@ -4654,7 +4654,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["ts-api-utils", "virtual:279567d28865968a1edae31b41e12b670c522bf31e1282ca803ae69876e0b98c2851375c41e7e81de8e11c67abb9d81d45f4f14884c5618274bc58b4632f03f5#npm:2.0.1"],\
           ["@types/typescript", null],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "packagePeers": [\
           "@types/typescript",\
@@ -4718,10 +4718,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40", {\
-        "packageLocation": "./.yarn/cache/typescript-patch-522f08b525-6ae9b2c4d3.zip/node_modules/typescript/",\
+      ["patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40", {\
+        "packageLocation": "./.yarn/cache/typescript-patch-d3778020a0-9847063403.zip/node_modules/typescript/",\
         "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4744,7 +4744,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/parser", "virtual:a8f8b6d94bc57ee8065526d1c47713d87b95e83aeba4919f73935a7517388bcc9be2e7cf4bfc3fbc4a3a98b6fa2b7d8266afd7ddb91bc489a75a94da33eab130#npm:8.29.1"],\
           ["@typescript-eslint/utils", "virtual:a8f8b6d94bc57ee8065526d1c47713d87b95e83aeba4919f73935a7517388bcc9be2e7cf4bfc3fbc4a3a98b6fa2b7d8266afd7ddb91bc489a75a94da33eab130#npm:8.29.1"],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.24.0"],\
-          ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=8c6c40"]\
+          ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=8c6c40"]\
         ],\
         "packagePeers": [\
           "@types/eslint",\
