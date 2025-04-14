@@ -36,7 +36,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.24.0"],\
           ["eslint-config-node", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config-node.git#commit=63a71851d4cbcbd95c4f4ef3e34ef259b54c7804"],\
           ["lit", "npm:3.2.1"],\
-          ["lit-element", "npm:4.1.1"],\
+          ["lit-element", "npm:4.2.0"],\
           ["prettier", "npm:3.5.3"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"],\
           ["rimraf", "npm:6.0.1"],\
@@ -374,6 +374,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@lit-reactive-element-npm-2.0.4-4836436301-16aa5a8d91.zip/node_modules/@lit/reactive-element/",\
         "packageDependencies": [\
           ["@lit/reactive-element", "npm:2.0.4"],\
+          ["@lit-labs/ssr-dom-shim", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.1.0", {\
+        "packageLocation": "./.yarn/cache/@lit-reactive-element-npm-2.1.0-77512b732b-c13dbc3705.zip/node_modules/@lit/reactive-element/",\
+        "packageDependencies": [\
+          ["@lit/reactive-element", "npm:2.1.0"],\
           ["@lit-labs/ssr-dom-shim", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
@@ -1810,7 +1818,7 @@ const RAW_RUNTIME_STATE =
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.24.0"],\
           ["eslint-config-node", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config-node.git#commit=63a71851d4cbcbd95c4f4ef3e34ef259b54c7804"],\
           ["lit", "npm:3.2.1"],\
-          ["lit-element", "npm:4.1.1"],\
+          ["lit-element", "npm:4.2.0"],\
           ["prettier", "npm:3.5.3"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"],\
           ["rimraf", "npm:6.0.1"],\
@@ -3124,6 +3132,16 @@ const RAW_RUNTIME_STATE =
           ["lit-html", "npm:3.2.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.2.0", {\
+        "packageLocation": "./.yarn/cache/lit-element-npm-4.2.0-4e5f939f4c-0760140f9c.zip/node_modules/lit-element/",\
+        "packageDependencies": [\
+          ["lit-element", "npm:4.2.0"],\
+          ["@lit-labs/ssr-dom-shim", "npm:1.2.1"],\
+          ["@lit/reactive-element", "npm:2.1.0"],\
+          ["lit-html", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["lit-html", [\
@@ -3131,6 +3149,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/lit-html-npm-3.2.1-1662fc597d-d670a8e49d.zip/node_modules/lit-html/",\
         "packageDependencies": [\
           ["lit-html", "npm:3.2.1"],\
+          ["@types/trusted-types", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.3.0", {\
+        "packageLocation": "./.yarn/cache/lit-html-npm-3.3.0-c8e56e93b3-667992d927.zip/node_modules/lit-html/",\
+        "packageDependencies": [\
+          ["lit-html", "npm:3.3.0"],\
           ["@types/trusted-types", "npm:2.0.3"]\
         ],\
         "linkType": "HARD"\
