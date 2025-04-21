@@ -16,7 +16,7 @@
       }
     ],
     "languages": [
-      { "name": "english", "description": "sublime" },
+      { "name": "english", "description": "sublime" }
     ],
     "keywords": [
       "switch",
@@ -31,5 +31,27 @@
     "degree": "first degree burns on my both hands and feet",
     "start": "1970",
     "end": "TBA"
+  },
+  "certificates": [
+    {
+      "name": "Knitting",
+      "validityPeriod": "forever"
+    }
+  ],
+  "employment": {
+    "status": "TBD",
+    "history": [{
+      "employer": "Preschool of life",
+      "tasks": ["Changing Diapers"],
+      "start": "1970-01",
+      "end": null,
+      "projects": null,
+      "jobAssignments": [
+        {
+          "name": "Removing Bandages",
+          "description": "One swift tug and no more tears."
+        }
+      ]
+    }]
   }
 }

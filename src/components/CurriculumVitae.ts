@@ -58,6 +58,9 @@ export class CurriculumVitae extends LitElement {
               <cv-education
                 data="${JSON.stringify(data.education)}"
               ></cv-education>
+              <cv-certificates
+                data="${JSON.stringify(data.certificates)}"
+              ></cv-certificates>
               <cv-employment
                 data="${JSON.stringify(data.employment)}"
               ></cv-employment>
@@ -65,7 +68,7 @@ export class CurriculumVitae extends LitElement {
           ),
           html`<span>Loading...</span>`
         )}
-        <cv-footer>Made with LIT, 2023</cv-footer>
+        <cv-footer>Made with LIT, 2025</cv-footer>
       </div>
     `;
   }

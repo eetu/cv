@@ -1,5 +1,5 @@
 import { msg } from "@lit/localize";
-import { css, html, LitElement } from "lit";
+import { css, html, LitElement, nothing } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { join } from "lit/directives/join.js";
 import { map } from "lit/directives/map.js";
@@ -17,6 +17,7 @@ export class Profile extends LitElement {
     links: [],
     name: "",
     languages: [],
+    description: null,
   };
 
   static styles = css`
@@ -28,6 +29,8 @@ export class Profile extends LitElement {
     .profile > img {
       border-radius: 50%;
       height: 250px;
+      width: 250px;
+      object-fit: cover;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
 
@@ -62,11 +65,12 @@ export class Profile extends LitElement {
   `;
 
   render() {
-    const { name, dob, home, keywords, links, languages } = this.data;
+    const { name, dob, home, keywords, links, languages, description } =
+      this.data;
 
     return html`
       <section class="profile">
-        <img src="img/default.jpg" />
+        <img src="img/default.png" />
         <div class="description">
           <h1>
             ${name}
@@ -78,19 +82,28 @@ export class Profile extends LitElement {
                 /></a>`
             )}
           </h1>
-          <p>${dob}</p>
+          ${dob ? html`<p>${dob}</p>` : nothing}
           <p>${home}</p>
-          <p>
-            ${msg("Language skills")}:
-            ${join(
-              map(
-                languages,
-                (language) => html`${language.name} (${language.description})`
-              ),
-              ", "
-            )}
-          </p>
-          <p class="keywords">[${keywords.join(", ")}]</p>
+
+          ${languages && languages.length > 0
+            ? html`
+                <p>
+                  ${msg("Language skills")}:
+                  ${join(
+                    map(
+                      languages,
+                      (language) =>
+                        html`${language.name} (${language.description})`
+                    ),
+                    ", "
+                  )}
+                </p>
+              `
+            : nothing}
+          ${description ? html`<p>${description}</p>` : nothing}
+          ${keywords && keywords.length > 0
+            ? html`<p class="keywords">[${keywords.join(", ")}]</p>`
+            : nothing}
         </div>
       </section>
     `;
