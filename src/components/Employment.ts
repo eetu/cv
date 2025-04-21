@@ -23,10 +23,11 @@ export class Employment extends LitElement {
   `;
 
   render() {
-    const { history } = this.data;
+    const { history, status } = this.data;
 
     return html`
       <cv-section label=${msg("Work experience")}>
+        <p>${status}</p>
         ${repeat(
           history,
           (employer) => html`

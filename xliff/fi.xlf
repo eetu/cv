@@ -18,6 +18,14 @@
   <source>Language skills</source>
   <target>Kielitaidot</target>
 </trans-unit>
+<trans-unit id="s5515a897ae98bed9">
+  <source>Certificates</source>
+  <target>Sertifikaatit</target>
+</trans-unit>
+<trans-unit id="se41cbb08fee192f9">
+  <source>Assignments</source>
+  <target>Työtehtävät</target>
+</trans-unit>
 </body>
 </file>
 </xliff>

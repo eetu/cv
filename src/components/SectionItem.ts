@@ -14,7 +14,7 @@ export class SectionItem extends LitElement {
     }
 
     label {
-      width: 120px;
+      width: 140px;
       flex-shrink: 0;
     }
 

@@ -1,6 +1,7 @@
 html {
   background: linear-gradient(#ececec, #e395ff);
   background-color: #e2e2e2;
+  height: 100vh;
 }
 
 body {
