@@ -1426,7 +1426,7 @@ __metadata:
     "@rollup/plugin-typescript": "npm:^12.1.2"
     eslint: "npm:^9.24.0"
     eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.0"
-    lit: "npm:^3.2.1"
+    lit: "npm:^3.3.0"
     lit-element: "npm:^4.2.0"
     prettier: "npm:^3.5.3"
     prettier-config: "https://github.com/eetu/prettier-config#1.0.0"
@@ -2548,7 +2548,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lit@npm:^3.2.0, lit@npm:^3.2.1":
+"lit@npm:^3.2.0":
   version: 3.2.1
   resolution: "lit@npm:3.2.1"
   dependencies:
@@ -2556,6 +2556,17 @@ __metadata:
     lit-element: "npm:^4.1.0"
     lit-html: "npm:^3.2.0"
   checksum: 10/6a2cd0547b3ccff11f41753d1d98d789ed1051aef8fb0865344c7e1e4d77aafcf384f660c6d98125cc81ea0c9f87786528742d359359a52d7af956eefb713fe4
+  languageName: node
+  linkType: hard
+
+"lit@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "lit@npm:3.3.0"
+  dependencies:
+    "@lit/reactive-element": "npm:^2.1.0"
+    lit-element: "npm:^4.2.0"
+    lit-html: "npm:^3.3.0"
+  checksum: 10/442b8eabd5d1b4aee0ab34db0b67d5c07a988f30d345f4a68263275acf826816ba30937bb8d5d331dc260c2127cd8953f332dcc45edbf080d61c21291cb06330
   languageName: node
   linkType: hard
 
