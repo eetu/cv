@@ -26,13 +26,39 @@ export class CurriculumVitae extends LitElement {
     }
   `;
 
-  @state()
-  private data = fetch(`/data/cv_${getLocale()}.json`).then((r) => r.json());
+  @state() private locale = "en";
 
-  private handleLanguageChange(event: any) {
-    const newLocale = event.currentTarget?.value ?? "en";
-    this.data = fetch(`/data/cv_${newLocale}.json`).then((r) => r.json());
+  @state() private data: Promise<ProfileData> = Promise.resolve(
+    undefined as any
+  );
+
+  private loadData() {
+    this.data = fetch(`/data/cv_${this.locale}.json`).then((r) => r.json());
+  }
+
+  connectedCallback() {
+    super.connectedCallback();
+    const urlLocale = new URLSearchParams(window.location.search).get("locale");
+    const validLocale =
+      urlLocale !== null &&
+      allLocales.includes(urlLocale as (typeof allLocales)[number])
+        ? urlLocale
+        : this.locale;
+    this.locale = validLocale;
+    setLocale(validLocale);
+    this.loadData();
+  }
+
+  private handleLanguageChange(event: Event) {
+    const newLocale = (event.currentTarget as HTMLSelectElement).value;
+    this.locale = newLocale;
     setLocale(newLocale);
+    this.loadData();
+
+    // Update URL
+    const url = new URL(window.location.href);
+    url.searchParams.set("locale", newLocale);
+    window.history.pushState({}, "", url.toString());
   }
 
   render() {
