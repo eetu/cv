@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
           ["@rollup/plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:16.0.1"],\
           ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2"],\
           ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:0.4.4"],\
-          ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.3"],\
+          ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.4"],\
           ["cv", "workspace:."],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.29.0"],\
           ["eslint-config-node", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config-node.git#commit=63a71851d4cbcbd95c4f4ef3e34ef259b54c7804"],\
@@ -628,18 +628,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@rollup/plugin-typescript", [\
-      ["npm:12.1.3", {\
-        "packageLocation": "./.yarn/cache/@rollup-plugin-typescript-npm-12.1.3-66709bc121-6d2d717059.zip/node_modules/@rollup/plugin-typescript/",\
+      ["npm:12.1.4", {\
+        "packageLocation": "./.yarn/cache/@rollup-plugin-typescript-npm-12.1.4-9003c60309-c2082e225f.zip/node_modules/@rollup/plugin-typescript/",\
         "packageDependencies": [\
-          ["@rollup/plugin-typescript", "npm:12.1.3"]\
+          ["@rollup/plugin-typescript", "npm:12.1.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.3", {\
-        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-typescript-virtual-571096b648/0/cache/@rollup-plugin-typescript-npm-12.1.3-66709bc121-6d2d717059.zip/node_modules/@rollup/plugin-typescript/",\
+      ["virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.4", {\
+        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-typescript-virtual-c238892bcf/0/cache/@rollup-plugin-typescript-npm-12.1.4-9003c60309-c2082e225f.zip/node_modules/@rollup/plugin-typescript/",\
         "packageDependencies": [\
-          ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.3"],\
-          ["@rollup/pluginutils", "virtual:571096b648d4aef1ef292e1c00eebfc07ce98138915c4f4c8296dee0fd080087d3233c56324d081064dfc562b495a80886f02267028db1cac0d41da40af9799c#npm:5.1.2"],\
+          ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.4"],\
+          ["@rollup/pluginutils", "virtual:c238892bcfe94d9e7d0135488e8d67463c1450ccb8cf18ddb032a07fe31d9dec1981d03d5b67c2306fa3bf5616b35b2d4e446cddd80d946d729b449df04ce9df#npm:5.1.2"],\
           ["@types/rollup", null],\
           ["@types/tslib", null],\
           ["@types/typescript", null],\
@@ -690,10 +690,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:571096b648d4aef1ef292e1c00eebfc07ce98138915c4f4c8296dee0fd080087d3233c56324d081064dfc562b495a80886f02267028db1cac0d41da40af9799c#npm:5.1.2", {\
-        "packageLocation": "./.yarn/__virtual__/@rollup-pluginutils-virtual-2ae7f5a847/0/cache/@rollup-pluginutils-npm-5.1.2-42da129318-cc1fe3285a.zip/node_modules/@rollup/pluginutils/",\
+      ["virtual:c238892bcfe94d9e7d0135488e8d67463c1450ccb8cf18ddb032a07fe31d9dec1981d03d5b67c2306fa3bf5616b35b2d4e446cddd80d946d729b449df04ce9df#npm:5.1.2", {\
+        "packageLocation": "./.yarn/__virtual__/@rollup-pluginutils-virtual-1915d04c0a/0/cache/@rollup-pluginutils-npm-5.1.2-42da129318-cc1fe3285a.zip/node_modules/@rollup/pluginutils/",\
         "packageDependencies": [\
-          ["@rollup/pluginutils", "virtual:571096b648d4aef1ef292e1c00eebfc07ce98138915c4f4c8296dee0fd080087d3233c56324d081064dfc562b495a80886f02267028db1cac0d41da40af9799c#npm:5.1.2"],\
+          ["@rollup/pluginutils", "virtual:c238892bcfe94d9e7d0135488e8d67463c1450ccb8cf18ddb032a07fe31d9dec1981d03d5b67c2306fa3bf5616b35b2d4e446cddd80d946d729b449df04ce9df#npm:5.1.2"],\
           ["@types/estree", "npm:1.0.1"],\
           ["@types/rollup", null],\
           ["estree-walker", "npm:2.0.2"],\
@@ -1885,7 +1885,7 @@ const RAW_RUNTIME_STATE =
           ["@rollup/plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:16.0.1"],\
           ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2"],\
           ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:0.4.4"],\
-          ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.3"],\
+          ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.1.4"],\
           ["cv", "workspace:."],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.29.0"],\
           ["eslint-config-node", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config-node.git#commit=63a71851d4cbcbd95c4f4ef3e34ef259b54c7804"],\
