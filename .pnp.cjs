@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@lit/localize", "npm:0.12.2"],\
           ["@lit/localize-tools", "npm:0.8.0"],\
           ["@rollup/plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:16.0.3"],\
-          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2"],\
+          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.3"],\
           ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:0.4.4"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.3.0"],\
           ["cv", "workspace:."],\
@@ -587,17 +587,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@rollup/plugin-replace", [\
-      ["npm:6.0.2", {\
-        "packageLocation": "./.yarn/cache/@rollup-plugin-replace-npm-6.0.2-dd514751aa-819d2b8eed.zip/node_modules/@rollup/plugin-replace/",\
+      ["npm:6.0.3", {\
+        "packageLocation": "./.yarn/cache/@rollup-plugin-replace-npm-6.0.3-368394ddf1-4a8fde80bf.zip/node_modules/@rollup/plugin-replace/",\
         "packageDependencies": [\
-          ["@rollup/plugin-replace", "npm:6.0.2"]\
+          ["@rollup/plugin-replace", "npm:6.0.3"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2", {\
-        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-replace-virtual-daf3266bd5/0/cache/@rollup-plugin-replace-npm-6.0.2-dd514751aa-819d2b8eed.zip/node_modules/@rollup/plugin-replace/",\
+      ["virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.3", {\
+        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-replace-virtual-892e549e52/0/cache/@rollup-plugin-replace-npm-6.0.3-368394ddf1-4a8fde80bf.zip/node_modules/@rollup/plugin-replace/",\
         "packageDependencies": [\
-          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2"],\
+          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.3"],\
           ["@rollup/pluginutils", "virtual:ba6e8ad18d3c72c9e3ae72c00785ecc663af0af909a27222b858c98000ec67229a47b0cbd7287aaa556612c2a4646193427fa30e6e2fbb5148c899521f0c1a32#npm:5.0.2"],\
           ["@types/rollup", null],\
           ["magic-string", "npm:0.30.12"],\
@@ -1906,7 +1906,7 @@ const RAW_RUNTIME_STATE =
           ["@lit/localize", "npm:0.12.2"],\
           ["@lit/localize-tools", "npm:0.8.0"],\
           ["@rollup/plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:16.0.3"],\
-          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.2"],\
+          ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.3"],\
           ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:0.4.4"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.3.0"],\
           ["cv", "workspace:."],\
