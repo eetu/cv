@@ -268,10 +268,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lit-labs/ssr-dom-shim@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@lit-labs/ssr-dom-shim@npm:1.4.0"
-  checksum: 10/a592a2d134f6f9c0e40aef2122226114b82d22f3308d375cb28e231342ee1dec8529bfcf283e8c9d80511c5cfc54bb6eaaaecf5f93f9a04d2be9d1663ab54705
+"@lit-labs/ssr-dom-shim@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "@lit-labs/ssr-dom-shim@npm:1.5.0"
+  checksum: 10/7ed5a816ebf8b3d06c155db916793300875c523b9877e2c6be0dbcc034ec8e4cf1b034007c801c0d0a5d352f47c0aa782bcdd19af2240f88f3e2489312f8b8a8
   languageName: node
   linkType: hard
 
@@ -1497,7 +1497,7 @@ __metadata:
     eslint: "npm:^9.39.2"
     eslint-config-node: "https://github.com/eetu/eslint-config-node#2.1.0"
     lit: "npm:^3.3.1"
-    lit-element: "npm:^4.2.1"
+    lit-element: "npm:^4.2.2"
     prettier: "npm:^3.7.4"
     prettier-config: "https://github.com/eetu/prettier-config#1.0.0"
     rimraf: "npm:^6.1.2"
@@ -2577,14 +2577,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lit-element@npm:^4.2.1":
-  version: 4.2.1
-  resolution: "lit-element@npm:4.2.1"
+"lit-element@npm:^4.2.2":
+  version: 4.2.2
+  resolution: "lit-element@npm:4.2.2"
   dependencies:
-    "@lit-labs/ssr-dom-shim": "npm:^1.4.0"
+    "@lit-labs/ssr-dom-shim": "npm:^1.5.0"
     "@lit/reactive-element": "npm:^2.1.0"
     lit-html: "npm:^3.3.0"
-  checksum: 10/0d1d306cb12c3ba840cd9baf376997891ece751220049aa4a3cbd6bab25ba21e30d45012662eddaccccc94fe9930e8a0ef36fb779bf22fbcd2184b7a794fee3d
+  checksum: 10/268705c5a88c68ceeffb4dc871ffa7a9e5b5405b4907bc408cdc3336ea865b1690b4f4a34155af287200cc0737933c25326ed6816fa2c040b747925717bc21a6
   languageName: node
   linkType: hard
 
