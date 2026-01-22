@@ -1,3 +1,3 @@
-import eslintNodeConfig from "eslint-config-node";
+import eslintConfig from "eslint-config";
 
-export default [...eslintNodeConfig];
+export default [...eslintConfig];

@@ -3,8 +3,8 @@ import { css, html, LitElement } from "lit";
 import { customElement, state } from "lit/decorators.js";
 import { until } from "lit/directives/until.js";
 
-import { profileDataSchema, type ProfileData } from "../schema.js";
 import { allLocales } from "../locales/codes.js";
+import { type ProfileData,profileDataSchema } from "../schema.js";
 import { getLocale, setLocale } from "./localization.js";
 
 @customElement("curriculum-vitae")

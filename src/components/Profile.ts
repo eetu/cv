@@ -68,10 +68,10 @@ export class Profile extends LitElement {
 
   async connectedCallback() {
     super.connectedCallback();
-    
+
     // Try to load profile images in order: profile.png, profile.jpg, fallback to example
     const imagesToTry = ["img/profile.png", "img/profile.jpg"];
-    
+
     for (const imageUrl of imagesToTry) {
       try {
         const response = await fetch(imageUrl, { method: "HEAD" });
@@ -79,11 +79,11 @@ export class Profile extends LitElement {
           this.profileImage = imageUrl;
           return;
         }
-      } catch (error) {
+      } catch {
         // Continue to next image
       }
     }
-    
+
     // If we get here, use the example image (already set as default)
   }
 
