@@ -11,61 +11,7 @@ import { SectionContent } from "./components/SectionContent";
 import { SectionHeading } from "./components/SectionHeading";
 import { SectionItem } from "./components/SectionItem";
 
-export type ProfileData = {
-  profile: {
-    name: string;
-    description: string | null;
-    dob: string;
-    home: string;
-    links: {
-      name: string;
-      url: string;
-      logo: string;
-    }[];
-    languages: {
-      name: string;
-      description: string;
-    }[];
-    keywords: string[];
-  };
-  education: {
-    name: string;
-    degree: string;
-    start: string;
-    end: string;
-  };
-  certificates: {
-    name: string;
-    validityPeriod: string | null;
-  }[];
-  employment: {
-    status: string;
-    history: {
-      employer: string;
-      tasks: string[];
-      start: string;
-      end: string | null;
-      projects:
-        | {
-            name: string;
-            customer: string;
-            start: string;
-            end: string | null;
-            tasks: string[];
-            keywords: string[];
-            description: string;
-            urls?: string[];
-          }[]
-        | null;
-      jobAssignments:
-        | {
-            name: string;
-            description: string;
-          }[]
-        | null;
-    }[];
-  };
-};
+export type { ProfileData } from "./schema.js";
 
 // TODO how to prevent treeshaking dropping components
 [

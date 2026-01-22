@@ -3,18 +3,15 @@ import { css, html, LitElement, nothing } from "lit";
 import { customElement, property } from "lit/decorators.js";
 import { repeat } from "lit/directives/repeat.js";
 
-import { ProfileData } from "../index.js";
+import type { ProfileData } from "../schema.js";
 
 @customElement("cv-employer")
 export class Employer extends LitElement {
   @property({ type: Object })
   data: ProfileData["employment"]["history"][0] = {
     employer: "",
-    end: "",
-    projects: null,
     start: "",
     tasks: [],
-    jobAssignments: null,
   };
 
   static styles = css`
@@ -47,17 +44,18 @@ export class Employer extends LitElement {
   `;
 
   render() {
-    const { employer, start, end, projects, tasks, jobAssignments } = this.data;
+    const { employer, start, end, projects, tasks, jobAssignments, description } = this.data;
 
     return html`
       <cv-section-item label=${employer}>
-        <cv-section-heading>${start} - ${end}</cv-section-heading>
+        <cv-section-heading>${start} - ${end ?? ""}</cv-section-heading>
         <cv-section-content>
           <cv-keywords keywords=${JSON.stringify(tasks)}></cv-keywords>
+          ${description ? html`<p>${description}</p>` : nothing}
         </cv-section-content>
       </cv-section-item>
       ${
-        jobAssignments !== null
+        jobAssignments && jobAssignments.length > 0
           ? html`
               <cv-section-item label=${msg("Assignments")}>
                 ${repeat(
@@ -73,7 +71,7 @@ export class Employer extends LitElement {
           : nothing
       }
       ${
-        projects !== null
+        projects && projects.length > 0
           ? html`
               <cv-section-item label=${msg("Projects")}>
                 ${repeat(
@@ -81,7 +79,7 @@ export class Employer extends LitElement {
                   (project) => html`
                     <div class="project">
                       <cv-section-heading
-                        >${project.start} - ${project.end}</cv-section-heading
+                        >${project.start} - ${project.end ?? ""}</cv-section-heading
                       >
                       <cv-section-content>
                         <p>${project.customer} - ${project.name}</p>
@@ -117,7 +115,6 @@ export class Employer extends LitElement {
             `
           : nothing
       }
-      </cv-section-item>
     `;
   }
 }

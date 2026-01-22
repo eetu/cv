@@ -14,4 +14,9 @@ build/*
 eetu.pdf
 hakemus.txt
 
-.DS_store
+.DS_store-e 
+# Profile images
+img/profile.png
+img/profile.jpg
+
+.DS_Store

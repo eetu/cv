@@ -3,7 +3,7 @@ import { css, html, LitElement } from "lit";
 import { customElement, state } from "lit/decorators.js";
 import { until } from "lit/directives/until.js";
 
-import { ProfileData } from "../index.js";
+import { profileDataSchema, type ProfileData } from "../schema.js";
 import { allLocales } from "../locales/codes.js";
 import { getLocale, setLocale } from "./localization.js";
 
@@ -24,6 +24,13 @@ export class CurriculumVitae extends LitElement {
 
     .cv {
     }
+
+    .error {
+      color: red;
+      padding: 20px;
+      font-family: monospace;
+      white-space: pre-wrap;
+    }
   `;
 
   @state() private locale = "en";
@@ -33,7 +40,18 @@ export class CurriculumVitae extends LitElement {
   );
 
   private loadData() {
-    this.data = fetch(`/data/cv_${this.locale}.json`).then((r) => r.json());
+    this.data = fetch(`/data/cv_${this.locale}.json`)
+      .then((r) => r.json())
+      .then((data) => {
+        const result = profileDataSchema.safeParse(data);
+        if (!result.success) {
+          console.error("CV validation failed:", result.error);
+          throw new Error(
+            `CV data validation failed:\n${JSON.stringify(result.error.format(), null, 2)}`
+          );
+        }
+        return result.data;
+      });
   }
 
   connectedCallback() {
@@ -84,12 +102,20 @@ export class CurriculumVitae extends LitElement {
               <cv-education
                 data="${JSON.stringify(data.education)}"
               ></cv-education>
-              <cv-certificates
-                data="${JSON.stringify(data.certificates)}"
-              ></cv-certificates>
+              ${data.certificates
+                ? html`<cv-certificates
+                    data="${JSON.stringify(data.certificates)}"
+                  ></cv-certificates>`
+                : ""}
               <cv-employment
                 data="${JSON.stringify(data.employment)}"
               ></cv-employment>
+            `,
+            (error: Error) => html`
+              <div class="error">
+                <h2>Error loading CV data</h2>
+                <p>${error.message}</p>
+              </div>
             `
           ),
           html`<span>Loading...</span>`

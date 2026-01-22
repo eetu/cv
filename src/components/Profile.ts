@@ -1,11 +1,11 @@
 import { msg } from "@lit/localize";
 import { css, html, LitElement, nothing } from "lit";
-import { customElement, property } from "lit/decorators.js";
+import { customElement, property, state } from "lit/decorators.js";
 import { join } from "lit/directives/join.js";
 import { map } from "lit/directives/map.js";
 import { repeat } from "lit/directives/repeat.js";
 
-import { ProfileData } from "../index.js";
+import type { ProfileData } from "../schema.js";
 
 @customElement("cv-profile")
 export class Profile extends LitElement {
@@ -17,8 +17,10 @@ export class Profile extends LitElement {
     links: [],
     name: "",
     languages: [],
-    description: null,
   };
+
+  @state()
+  private profileImage = "img/profile_example.png";
 
   static styles = css`
     .profile {
@@ -64,13 +66,34 @@ export class Profile extends LitElement {
     }
   `;
 
+  async connectedCallback() {
+    super.connectedCallback();
+    
+    // Try to load profile images in order: profile.png, profile.jpg, fallback to example
+    const imagesToTry = ["img/profile.png", "img/profile.jpg"];
+    
+    for (const imageUrl of imagesToTry) {
+      try {
+        const response = await fetch(imageUrl, { method: "HEAD" });
+        if (response.ok) {
+          this.profileImage = imageUrl;
+          return;
+        }
+      } catch (error) {
+        // Continue to next image
+      }
+    }
+    
+    // If we get here, use the example image (already set as default)
+  }
+
   render() {
     const { name, dob, home, keywords, links, languages, description } =
       this.data;
 
     return html`
       <section class="profile">
-        <img src="img/default.png" />
+        <img src="${this.profileImage}" />
         <div class="description">
           <h1>
             ${name}

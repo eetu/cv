@@ -1,7 +1,32 @@
 html {
-  background: linear-gradient(#ececec, #e395ff);
+  /* Fixed gradient that covers entire viewport */
+  position: relative;
+  min-height: 100vh;
   background-color: #e2e2e2;
-  height: 100vh;
+}
+
+html::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(#ececec, #e395ff);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* For PDF export, use static gradient */
+@media print {
+  html {
+    height: auto;
+  }
+
+  html::before {
+    position: absolute;
+    height: 100%;
+  }
 }
 
 body {
@@ -12,6 +37,7 @@ body {
   padding: 32px;
   position: relative;
   background-color: white;
+  min-height: calc(100vh - 64px);
 }
 
 body::before {
