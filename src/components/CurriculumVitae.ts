@@ -41,7 +41,18 @@ export class CurriculumVitae extends LitElement {
 
   private loadData() {
     this.data = fetch(`/data/cv_${this.locale}.json`)
-      .then((r) => r.json())
+      .then(async (r) => {
+        if (!r.ok) {
+          // If cv_??.json is missing, fallback to cv.example.json
+          console.log(`cv_${this.locale}.json not found, falling back to cv.example.json`);
+          const fallbackR = await fetch('/data/cv.example.json');
+            if (!fallbackR.ok) {
+                throw new Error('Neither cv_${this.locale}.json nor cv.example.json found');
+            }
+            return await fallbackR.json();
+        }
+        return r.json();
+      })
       .then((data) => {
         const result = profileDataSchema.safeParse(data);
         if (!result.success) {

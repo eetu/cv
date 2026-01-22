@@ -40,18 +40,74 @@
   ],
   "employment": {
     "status": "TBD",
-    "history": [{
-      "employer": "Preschool of life",
-      "tasks": ["Changing Diapers"],
-      "start": "1970-01",
-      "end": null,
-      "projects": null,
-      "jobAssignments": [
-        {
-          "name": "Removing Bandages",
-          "description": "One swift tug and no more tears."
-        }
-      ]
-    }]
+    "history": [
+      {
+        "employer": "Preschool of life",
+        "tasks": ["Changing Diapers"],
+        "start": "1970-01",
+        "jobAssignments": [
+          {
+            "name": "Removing Bandages",
+            "description": "One swift tug and no more tears."
+          }
+        ]
+      },
+      {
+        "employer": "Elementary School of Hard Knocks",
+        "tasks": ["Learning ABCs", "Basic Arithmetic", "Playground Negotiations"],
+        "start": "1976-08",
+        "end": "1982-06",
+        "jobAssignments": [
+          {
+            "name": "Science Fair Champion",
+            "description": "Built a volcano that actually erupted (cleaning up pending)."
+          },
+          {
+            "name": "Class Pet Monitor",
+            "description": "Successfully kept goldfish alive for entire semester."
+          }
+        ]
+      },
+      {
+        "employer": "Middle School Drama Club",
+        "tasks": ["Stage Management", "Costume Design", "Dramatic Sighing"],
+        "start": "1982-09",
+        "end": "1985-06",
+        "jobAssignments": [
+          {
+            "name": "Lead in 'Hamlet: The Musical'",
+            "description": "To be or not to be... a musical theatre star."
+          }
+        ]
+      },
+      {
+        "employer": "High School Garage Band",
+        "tasks": ["Air Guitar Specialist", "Noise Complaint Manager"],
+        "start": "1985-09",
+        "end": "1989-06",
+        "jobAssignments": [
+          {
+            "name": "Local Battle of the Bands",
+            "description": "Came in last place but made the most noise."
+          },
+          {
+            "name": "Album Release",
+            "description": "Self-published cassette tape: 'Teenage Angst and Other Problems'."
+          }
+        ]
+      },
+      {
+        "employer": "Community College of Second Chances",
+        "tasks": ["Procrastination Mastery", "Coffee Consumption Testing"],
+        "start": "1989-09",
+        "end": "1991-12",
+        "jobAssignments": [
+          {
+            "name": "Student Government",
+            "description": "Successfully organized three pizza parties and zero policy changes."
+          }
+        ]
+      }
+    ]
   }
 }

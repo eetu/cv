@@ -25,11 +25,16 @@ export class Employment extends LitElement {
   render() {
     const { history, status } = this.data;
 
+    // Sort history by start date, latest first
+    const sortedHistory = [...history].sort((a, b) => {
+      return b.start.localeCompare(a.start);
+    });
+
     return html`
       <cv-section label=${msg("Work experience")}>
         <p>${status}</p>
         ${repeat(
-          history,
+          sortedHistory,
           (employer) => html`
             <div class="employer">
               <cv-employer data=${JSON.stringify(employer)}></cv-employer>
