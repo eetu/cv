@@ -2,6 +2,8 @@
 
 Curriculumn vitae project that renders cv JSON-file into html page using LIT web components.
 
+![CV Screenshot](docs/.assets/cv.png)
+
 ## Development
 
 ```bash
