@@ -37,7 +37,7 @@ const RAW_RUNTIME_STATE =
           ["cv", "workspace:."],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.39.2"],\
           ["eslint-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config.git#commit=f732fe4fb2131021ec927ce06b8bfd85453a3f28"],\
-          ["lit", "npm:3.3.2"],\
+          ["lit", "npm:3.3.3"],\
           ["lit-element", "npm:4.2.2"],\
           ["prettier", "npm:3.8.3"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"],\
@@ -2589,7 +2589,7 @@ const RAW_RUNTIME_STATE =
           ["cv", "workspace:."],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.39.2"],\
           ["eslint-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config.git#commit=f732fe4fb2131021ec927ce06b8bfd85453a3f28"],\
-          ["lit", "npm:3.3.2"],\
+          ["lit", "npm:3.3.3"],\
           ["lit-element", "npm:4.2.2"],\
           ["prettier", "npm:3.8.3"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"],\
@@ -4758,11 +4758,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:3.3.2", {\
-        "packageLocation": "./.yarn/cache/lit-npm-3.3.2-7dea58471e-0af8e06a0e.zip/node_modules/lit/",\
+      ["npm:3.3.3", {\
+        "packageLocation": "./.yarn/cache/lit-npm-3.3.3-c676af9241-238a657444.zip/node_modules/lit/",\
         "packageDependencies": [\
           ["@lit/reactive-element", "npm:2.1.0"],\
-          ["lit", "npm:3.3.2"],\
+          ["lit", "npm:3.3.3"],\
           ["lit-element", "npm:4.2.0"],\
           ["lit-html", "npm:3.3.0"]\
         ],\
