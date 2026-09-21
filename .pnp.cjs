@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config.git#commit=f732fe4fb2131021ec927ce06b8bfd85453a3f28"],\
           ["lit", "npm:3.3.3"],\
           ["lit-element", "npm:4.2.2"],\
-          ["prettier", "npm:3.9.6"],\
+          ["prettier", "npm:3.9.8"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"],\
           ["rimraf", "npm:6.1.3"],\
           ["rollup", "npm:4.63.1"],\
@@ -2600,7 +2600,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/eslint-config.git#commit=f732fe4fb2131021ec927ce06b8bfd85453a3f28"],\
           ["lit", "npm:3.3.3"],\
           ["lit-element", "npm:4.2.2"],\
-          ["prettier", "npm:3.9.6"],\
+          ["prettier", "npm:3.9.8"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"],\
           ["rimraf", "npm:6.1.3"],\
           ["rollup", "npm:4.63.1"],\
@@ -5766,10 +5766,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["prettier", [\
-      ["npm:3.9.6", {\
-        "packageLocation": "./.yarn/unplugged/prettier-npm-3.9.6-ad164eec07/node_modules/prettier/",\
+      ["npm:3.9.8", {\
+        "packageLocation": "./.yarn/unplugged/prettier-npm-3.9.8-317d497adb/node_modules/prettier/",\
         "packageDependencies": [\
-          ["prettier", "npm:3.9.6"]\
+          ["prettier", "npm:3.9.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5786,7 +5786,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/prettier-config-virtual-45828f0746/0/cache/prettier-config-https-f20e265961-62db5ae9a3.zip/node_modules/prettier-config/",\
         "packageDependencies": [\
           ["@types/prettier", null],\
-          ["prettier", "npm:3.9.6"],\
+          ["prettier", "npm:3.9.8"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"]\
         ],\
         "packagePeers": [\
