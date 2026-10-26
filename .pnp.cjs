@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@lit/localize-tools", "npm:0.8.2"],\
           ["@rollup/plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:16.0.3"],\
           ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.3"],\
-          ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:1.0.0"],\
+          ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:1.0.2"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.3.0"],\
           ["cv", "workspace:."],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.39.2"],\
@@ -855,22 +855,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@rollup/plugin-terser", [\
-      ["npm:1.0.0", {\
-        "packageLocation": "./.yarn/cache/@rollup-plugin-terser-npm-1.0.0-52e992b0de-eb4389d427.zip/node_modules/@rollup/plugin-terser/",\
+      ["npm:1.0.2", {\
+        "packageLocation": "./.yarn/cache/@rollup-plugin-terser-npm-1.0.2-152fdffefb-7b26961138.zip/node_modules/@rollup/plugin-terser/",\
         "packageDependencies": [\
-          ["@rollup/plugin-terser", "npm:1.0.0"]\
+          ["@rollup/plugin-terser", "npm:1.0.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:1.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-terser-virtual-b3382c0eb2/0/cache/@rollup-plugin-terser-npm-1.0.0-52e992b0de-eb4389d427.zip/node_modules/@rollup/plugin-terser/",\
+      ["virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:1.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/@rollup-plugin-terser-virtual-c5d81a20a0/0/cache/@rollup-plugin-terser-npm-1.0.2-152fdffefb-7b26961138.zip/node_modules/@rollup/plugin-terser/",\
         "packageDependencies": [\
-          ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:1.0.0"],\
+          ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:1.0.2"],\
           ["@types/rollup", null],\
           ["rollup", "npm:4.64.7"],\
           ["serialize-javascript", "npm:7.0.4"],\
           ["smob", "npm:1.5.0"],\
-          ["terser", "npm:5.34.1"]\
+          ["terser", "npm:5.51.2"]\
         ],\
         "packagePeers": [\
           "@types/rollup",\
@@ -2593,7 +2593,7 @@ const RAW_RUNTIME_STATE =
           ["@lit/localize-tools", "npm:0.8.2"],\
           ["@rollup/plugin-node-resolve", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:16.0.3"],\
           ["@rollup/plugin-replace", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:6.0.3"],\
-          ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:1.0.0"],\
+          ["@rollup/plugin-terser", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:1.0.2"],\
           ["@rollup/plugin-typescript", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:12.3.0"],\
           ["cv", "workspace:."],\
           ["eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:9.39.2"],\
@@ -6741,6 +6741,17 @@ const RAW_RUNTIME_STATE =
           ["commander", "npm:2.20.3"],\
           ["source-map-support", "npm:0.5.21"],\
           ["terser", "npm:5.34.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.51.2", {\
+        "packageLocation": "./.yarn/cache/terser-npm-5.51.2-a9fef6e954-1cb6f4189e.zip/node_modules/terser/",\
+        "packageDependencies": [\
+          ["@jridgewell/source-map", "npm:0.3.6"],\
+          ["acorn", "npm:8.15.0"],\
+          ["commander", "npm:2.20.3"],\
+          ["source-map-support", "npm:0.5.21"],\
+          ["terser", "npm:5.51.2"]\
         ],\
         "linkType": "HARD"\
       }]\
