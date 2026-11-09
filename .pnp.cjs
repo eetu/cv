@@ -41,7 +41,7 @@ const RAW_RUNTIME_STATE =
           ["lit-element", "npm:4.2.2"],\
           ["prettier", "npm:3.9.10"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"],\
-          ["rimraf", "npm:6.1.3"],\
+          ["rimraf", "npm:6.1.4"],\
           ["rollup", "npm:4.66.0"],\
           ["rollup-plugin-filesize", "npm:10.0.0"],\
           ["serve", "npm:14.2.6"],\
@@ -488,6 +488,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@isaacs-cliui-npm-9.0.0-f5b610cfb2-8ea3d1009f.zip/node_modules/@isaacs/cliui/",\
         "packageDependencies": [\
           ["@isaacs/cliui", "npm:9.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@isaacs/nonrecursive-glob-match", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "./.yarn/cache/@isaacs-nonrecursive-glob-match-npm-1.1.0-93d6912161-ef0e63803b.zip/node_modules/@isaacs/nonrecursive-glob-match/",\
+        "packageDependencies": [\
+          ["@isaacs/nonrecursive-glob-match", "npm:1.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2191,6 +2200,14 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
+      ["npm:5.0.12", {\
+        "packageLocation": "./.yarn/cache/brace-expansion-npm-5.0.12-5e9282f26b-65b550f183.zip/node_modules/brace-expansion/",\
+        "packageDependencies": [\
+          ["balanced-match", "npm:4.0.2"],\
+          ["brace-expansion", "npm:5.0.12"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:5.0.2", {\
         "packageLocation": "./.yarn/cache/brace-expansion-npm-5.0.2-9598014784-18d382c091.zip/node_modules/brace-expansion/",\
         "packageDependencies": [\
@@ -2602,7 +2619,7 @@ const RAW_RUNTIME_STATE =
           ["lit-element", "npm:4.2.2"],\
           ["prettier", "npm:3.9.10"],\
           ["prettier-config", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#https://github.com/eetu/prettier-config.git#commit=d89e3c0d41054a0726df24d297e1fe1129639db6"],\
-          ["rimraf", "npm:6.1.3"],\
+          ["rimraf", "npm:6.1.4"],\
           ["rollup", "npm:4.66.0"],\
           ["rollup-plugin-filesize", "npm:10.0.0"],\
           ["serve", "npm:14.2.6"],\
@@ -3824,13 +3841,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:13.0.3", {\
-        "packageLocation": "./.yarn/cache/glob-npm-13.0.3-f06360294f-38a9c78de0.zip/node_modules/glob/",\
+      ["npm:14.0.4", {\
+        "packageLocation": "./.yarn/cache/glob-npm-14.0.4-570b776990-d43e532cc8.zip/node_modules/glob/",\
         "packageDependencies": [\
-          ["glob", "npm:13.0.3"],\
-          ["minimatch", "npm:10.2.0"],\
-          ["minipass", "npm:7.1.2"],\
-          ["path-scurry", "npm:2.0.0"]\
+          ["glob", "npm:14.0.4"],\
+          ["minimatch", "npm:11.0.5"],\
+          ["minipass", "npm:7.1.3"],\
+          ["path-scurry", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -5027,19 +5044,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["minimatch", [\
-      ["npm:10.2.0", {\
-        "packageLocation": "./.yarn/cache/minimatch-npm-10.2.0-63c4781adf-3ceceac1c6.zip/node_modules/minimatch/",\
-        "packageDependencies": [\
-          ["brace-expansion", "npm:5.0.2"],\
-          ["minimatch", "npm:10.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:10.2.4", {\
         "packageLocation": "./.yarn/cache/minimatch-npm-10.2.4-11f0605299-aea4874e52.zip/node_modules/minimatch/",\
         "packageDependencies": [\
           ["brace-expansion", "npm:5.0.2"],\
           ["minimatch", "npm:10.2.4"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:11.0.5", {\
+        "packageLocation": "./.yarn/cache/minimatch-npm-11.0.5-ea16d06d87-40df2064d0.zip/node_modules/minimatch/",\
+        "packageDependencies": [\
+          ["@isaacs/nonrecursive-glob-match", "npm:1.1.0"],\
+          ["brace-expansion", "npm:5.0.12"],\
+          ["minimatch", "npm:11.0.5"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -5105,6 +5123,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/minipass-npm-7.1.2-3a5327d36d-c25f0ee819.zip/node_modules/minipass/",\
         "packageDependencies": [\
           ["minipass", "npm:7.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.1.3", {\
+        "packageLocation": "./.yarn/cache/minipass-npm-7.1.3-b73a16498d-175e4d5e20.zip/node_modules/minipass/",\
+        "packageDependencies": [\
+          ["minipass", "npm:7.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5703,12 +5728,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:2.0.0", {\
-        "packageLocation": "./.yarn/cache/path-scurry-npm-2.0.0-5a556e8161-285ae0c2d6.zip/node_modules/path-scurry/",\
+      ["npm:3.0.0", {\
+        "packageLocation": "./.yarn/cache/path-scurry-npm-3.0.0-f3b9fa0e0d-2b70c2ddf6.zip/node_modules/path-scurry/",\
         "packageDependencies": [\
           ["lru-cache", "npm:11.0.1"],\
           ["minipass", "npm:7.1.2"],\
-          ["path-scurry", "npm:2.0.0"]\
+          ["path-scurry", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6064,12 +6089,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:6.1.3", {\
-        "packageLocation": "./.yarn/cache/rimraf-npm-6.1.3-409ea7254f-dd98ec2ad7.zip/node_modules/rimraf/",\
+      ["npm:6.1.4", {\
+        "packageLocation": "./.yarn/cache/rimraf-npm-6.1.4-9805c86c63-0d32a62467.zip/node_modules/rimraf/",\
         "packageDependencies": [\
-          ["glob", "npm:13.0.3"],\
+          ["glob", "npm:14.0.4"],\
           ["package-json-from-dist", "npm:1.0.1"],\
-          ["rimraf", "npm:6.1.3"]\
+          ["rimraf", "npm:6.1.4"]\
         ],\
         "linkType": "HARD"\
       }]\
