@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["rimraf", "npm:6.1.4"],\
           ["rollup", "npm:4.68.2"],\
           ["rollup-plugin-filesize", "npm:10.0.0"],\
-          ["serve", "npm:14.2.7"],\
+          ["serve", "npm:14.2.8"],\
           ["tslib", "npm:2.9.1"],\
           ["typescript", "patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:8.72.2"],\
@@ -2508,13 +2508,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["compression", [\
-      ["npm:1.8.1", {\
-        "packageLocation": "./.yarn/cache/compression-npm-1.8.1-e34a5db404-e7552bfbd7.zip/node_modules/compression/",\
+      ["npm:1.8.2", {\
+        "packageLocation": "./.yarn/cache/compression-npm-1.8.2-4b720da886-5b17675cf4.zip/node_modules/compression/",\
         "packageDependencies": [\
           ["bytes", "npm:3.1.2"],\
           ["compressible", "npm:2.0.18"],\
-          ["compression", "npm:1.8.1"],\
-          ["debug", "virtual:e34a5db40400b9e5b2ff4a99207e6e6259d3054982622ae91b68c81eb2631164c6d9db4ab29c0dbf7620574b8d6b678f010601eafc55a6b832550053c1b61b7b#npm:2.6.9"],\
+          ["compression", "npm:1.8.2"],\
+          ["debug", "virtual:4b720da886f3a24ed25e3c8a6340d4d47afe353cab1ba8824d464cfd6b5f69af66967c1478256bd0a5296befed31593460b4110b4ede0955b4b381b51cc215c5#npm:2.6.9"],\
+          ["destroy", "npm:1.2.0"],\
           ["negotiator", "npm:0.6.4"],\
           ["on-headers", "npm:1.1.0"],\
           ["safe-buffer", "npm:5.2.1"],\
@@ -2601,7 +2602,7 @@ const RAW_RUNTIME_STATE =
           ["rimraf", "npm:6.1.4"],\
           ["rollup", "npm:4.68.2"],\
           ["rollup-plugin-filesize", "npm:10.0.0"],\
-          ["serve", "npm:14.2.7"],\
+          ["serve", "npm:14.2.8"],\
           ["tslib", "npm:2.9.1"],\
           ["typescript", "patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:7c7d06dfd2fc9183cd4c3cb7319b526bdf05190a3e953ffa59b079011100c347676b8521c44d29e3da0c8d70d1937308cb2c24674a4f09326a30a70f617832a9#npm:8.72.2"],\
@@ -2675,6 +2676,20 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
+      ["virtual:4b720da886f3a24ed25e3c8a6340d4d47afe353cab1ba8824d464cfd6b5f69af66967c1478256bd0a5296befed31593460b4110b4ede0955b4b381b51cc215c5#npm:2.6.9", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-4cd5aa0bd3/0/cache/debug-npm-2.6.9-7d4cb597dc-e07005f2b4.zip/node_modules/debug/",\
+        "packageDependencies": [\
+          ["@types/supports-color", null],\
+          ["debug", "virtual:4b720da886f3a24ed25e3c8a6340d4d47afe353cab1ba8824d464cfd6b5f69af66967c1478256bd0a5296befed31593460b4110b4ede0955b4b381b51cc215c5#npm:2.6.9"],\
+          ["ms", "npm:2.0.0"],\
+          ["supports-color", null]\
+        ],\
+        "packagePeers": [\
+          "@types/supports-color",\
+          "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["virtual:7ffc6cfb4050abe7741cf944f9e460146dbba69efb84497f1223aeb93e3e33617c8df17c8ea06e197175dd363bf09e4743477d474a2ec39de5a821c963d15a73#npm:4.4.3", {\
         "packageLocation": "./.yarn/__virtual__/debug-virtual-3dea4a8932/0/cache/debug-npm-4.4.3-0105c6123a-9ada3434ea.zip/node_modules/debug/",\
         "packageDependencies": [\
@@ -2695,20 +2710,6 @@ const RAW_RUNTIME_STATE =
           ["@types/supports-color", null],\
           ["debug", "virtual:ac3d8e680759ce54399273724d44e041d6c9b73454d191d411a8c44bb27e22f02aaf6ed9d3ad0ac1c298eac4833cff369c9c7b84c573016112c4f84be2cd8543#npm:4.3.4"],\
           ["ms", "npm:2.1.2"],\
-          ["supports-color", null]\
-        ],\
-        "packagePeers": [\
-          "@types/supports-color",\
-          "supports-color"\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["virtual:e34a5db40400b9e5b2ff4a99207e6e6259d3054982622ae91b68c81eb2631164c6d9db4ab29c0dbf7620574b8d6b678f010601eafc55a6b832550053c1b61b7b#npm:2.6.9", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-63e86aadbc/0/cache/debug-npm-2.6.9-7d4cb597dc-e07005f2b4.zip/node_modules/debug/",\
-        "packageDependencies": [\
-          ["@types/supports-color", null],\
-          ["debug", "virtual:e34a5db40400b9e5b2ff4a99207e6e6259d3054982622ae91b68c81eb2631164c6d9db4ab29c0dbf7620574b8d6b678f010601eafc55a6b832550053c1b61b7b#npm:2.6.9"],\
-          ["ms", "npm:2.0.0"],\
           ["supports-color", null]\
         ],\
         "packagePeers": [\
@@ -2797,6 +2798,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/depd-npm-2.0.0-b6c51a4b43-c0c8ff3607.zip/node_modules/depd/",\
         "packageDependencies": [\
           ["depd", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["destroy", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "./.yarn/cache/destroy-npm-1.2.0-6a511802e2-0acb300b74.zip/node_modules/destroy/",\
+        "packageDependencies": [\
+          ["destroy", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6136,8 +6146,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["serve", [\
-      ["npm:14.2.7", {\
-        "packageLocation": "./.yarn/cache/serve-npm-14.2.7-c0646d5b58-15af2f31df.zip/node_modules/serve/",\
+      ["npm:14.2.8", {\
+        "packageLocation": "./.yarn/cache/serve-npm-14.2.8-6e66392cc8-be36c4c1eb.zip/node_modules/serve/",\
         "packageDependencies": [\
           ["@zeit/schemas", "npm:2.36.0"],\
           ["ajv", "npm:8.18.0"],\
@@ -6145,9 +6155,9 @@ const RAW_RUNTIME_STATE =
           ["boxen", "npm:7.0.0"],\
           ["chalk", "npm:5.0.1"],\
           ["chalk-template", "npm:0.4.0"],\
-          ["compression", "npm:1.8.1"],\
+          ["compression", "npm:1.8.2"],\
           ["is-port-reachable", "npm:4.0.0"],\
-          ["serve", "npm:14.2.7"],\
+          ["serve", "npm:14.2.8"],\
           ["serve-handler", "npm:6.1.7"],\
           ["tinyclip", "npm:0.1.15"],\
           ["update-check", "npm:1.5.4"]\
